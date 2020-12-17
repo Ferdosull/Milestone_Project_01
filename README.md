@@ -1,4 +1,24 @@
-<img src="assets/readme_images/chosen_html_color_palette.PNG" style="margin: 0;">
+<img src="assets/readme_images/chosen_html_color_palette.png" style="margin: 0;">
+
+
+Font1 Link: https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text?query=Big&sidebar.open=true&selection.family=Big+Shoulders+Stencil+Text
+
+<img src="assets/readme_images/font1_big_shoulders_stencil_text.png" style="margin: 0;">
+
+Font2 Link: https://fonts.google.com/specimen/JetBrains+Mono?query=Jetbrains&sidebar.open=true&selection.family=JetBrains+Mono
+
+<img src="assets/readme_images/font2_jet_brains_mono.png" style="margin: 0;">
+
+Wireframe Mock-Ups (Balsamic)
+
+<img src="assets/readme_images/wireframe_main.png" style="margin: 0;">
+
+<img src="assets/readme_images/wireframe_about.png" style="margin: 0;">
+
+<img src="assets/readme_images/wireframe_we_need_you.png" style="margin: 0;">
+
+<img src="assets/readme_images/wireframe_gallery.png" style="margin: 0;">
+
 
 Welcome Ferdosull,
 
