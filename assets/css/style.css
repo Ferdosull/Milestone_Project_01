@@ -1,4 +1,4 @@
-/* ----------------------------------------------------------------Imported Fonts */
+/* -------------------------------------------------------------------------Fonts */
 .text-uppercase {
     text-align: center;
 	font-family: Big Shoulders Stencil Text;
@@ -11,8 +11,19 @@
 	letter-spacing: 2px;
 }
 
-/* -----------------------------------------------------------------------Colours */
+body {
+    font-family: 'Poppins', sans-serif;
+	letter-spacing: .03rem;
+}
 
+/* -------------------------------------------------------------------Colours used*/
+
+/* --------Rufous Red = #A72608 -- */
+/* -----Xiketic Brown = #18020C -- */
+/* ------Roman Silver = #828A95 -- */
+/* --------Mint Cream = #ECFFF8 -- */
+/* --Rich Black FOGRA = #01161E -- */
+/* ---------Off White = #FAFAFA -- */
 
 /* -----------------------------------------------------------------Image Styling */
 
@@ -69,6 +80,22 @@
     font-family: Big Shoulders Stencil Text;
     font-size: 40px;
     color: #ecfff8;
+}
+
+/* -------------------------------------------------------------Countdown Timer */
+
+#countdown_timer {
+	position: relative;
+	text-align: center;
+	font-family: JetBrains Mono;
+	border-radius: 5px;
+	font-size: 30px;
+	color: #ecfff8;
+	background-color: rgba(0, 0, 0, 0.25);
+	margin-top: 40px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -220,7 +247,26 @@ footer {
 }
 
 
-/* -------------------------------------------------------------Media Query 943px */
-@media(max-width: 992px) {
+/* -------------------------------------------------------------Media Query 992px */
 
+@media(min-width: 992px) {
+    #countdown_timer {
+		position: absolute;
+		text-align: center;
+		font-family: JetBrains Mono;
+		border-radius: 5px;
+		font-size: 40px;
+		color: #ecfff8;
+		background-color: rgba(0, 0, 0, 0.25);
+		margin-top: 40px;
+		margin-left: 90px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}   
+}
+
+@media(max-width: 992px) {
+    .line-divider {
+		display: none;
+	}
 }

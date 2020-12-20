@@ -32,6 +32,40 @@
 				<section class="callout jumbotron text-center">
 					<h1 class="jumbotron-header fade-in-2sec"><span class="red-text">RED ZONE</span><span class="line-divider"> |</span> MISSION TO MARS</h1>
                     <p class="countdown_text fade-in-2sec">Countdown to Launch</p>
+
+<!-- Countdown Timer Found @https://www.w3schools.com/howto/howto_js_countdown.asp -->
+
+                    <p id="countdown_timer"></p>
+					<script>
+					// Set the date we're counting down to
+					var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
+
+					// Update the count down every 1 second
+					var x = setInterval(function() {
+
+					  // Get today's date and time
+					  var now = new Date().getTime();
+						
+					  // Find the distance between now and the count down date
+					  var distance = countDownDate - now;
+						
+					  // Time calculations for days, hours, minutes and seconds
+					  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+					  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+					  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+					  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+						
+					  // Output the result in an element with id="countdown_timer"
+					  document.getElementById("countdown_timer").innerHTML = "T-minus " + days + "d " + hours + "h "
+					  + minutes + "m " + seconds + "s ";
+						
+					  // If the count down is over, write some text 
+					  if (distance < 0) {
+						clearInterval(x);
+						document.getElementById("countdown_timer").innerHTML = "EXPIRED";
+					  }
+					}, 1000);
+					</script>
 				</section>
 			</div>
 		</div>
