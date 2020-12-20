@@ -14,11 +14,107 @@
 /* -----------------------------------------------------------------------Colours */
 
 
+/* -----------------------------------------------------------------Image Styling */
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/mars1.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
 /* -------------------------------------------------Special paddings/margins/text */
 
 
 /* -----------------------------------------------------------------------Heading */
 
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #ecfff8;
+	font-family: Big Shoulders Stencil Text;
+    font-weight: bold;
+	font-size: 60px;
+	letter-spacing: 8px;
+    margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.red-text {
+    color: #a7260b;
+	background-color: rgba(0,0,0,0.2);
+	padding-left: 8px;
+	border-radius: 5px;
+}
+
+.countdown_text {
+    text-align: center;
+    font-family: Big Shoulders Stencil Text;
+    font-size: 40px;
+    color: #ecfff8;
+}
+
+
+/* ---------------------------------------------------------------------Fade-In */
+
+.fade-in-2sec {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+
+.fade-in-4sec {
+animation: fadeIn ease 4s;
+-webkit-animation: fadeIn ease 4s;
+-moz-animation: fadeIn ease 4s;
+-o-animation: fadeIn ease 4s;
+-ms-animation: fadeIn ease 4s;
+}
+
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
 
 /* ---------------------------------------------------------------------Hover.css */
 
