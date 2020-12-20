@@ -1,5 +1,15 @@
 /* ----------------------------------------------------------------Imported Fonts */
+.text-uppercase {
+    text-align: center;
+	font-family: Big Shoulders Stencil Text;
+}
 
+.general-sub {
+	font-family: Big Shoulders Stencil Text;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
 
 /* -----------------------------------------------------------------------Colours */
 
@@ -14,19 +24,107 @@
 
 
 /* ------------------------------------------------------------------------Footer */
+#footer-details {
+    padding: 20px;
+}
 
+footer {
+    background-color: #fafafa;
+	font-size: 14px;
+    color: black;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 15%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #535353;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
+}
+
+.list-inline-item:not(:last-child) {
+		margin-right: .65rem;
+}
+
+.fa-facebook:hover {
+    background: #4267B2;
+}
+
+.fa-instagram:hover {
+    background: #8a3ab9;
+}
+
+.fa-twitter:hover {
+    background: #1DA1F2;
+}
+
+.fa-youtube:hover {
+    background: #FF0000;
+}
+
+.fa-linkedin:hover {
+    background: #0072b1;
+}
+
+.fa-pinterest:hover {
+    background: #E60023;
+}
 
 /* -----------------------------------------------------Download Application Form */
 
+.application-pdf i {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.application-pdf i:hover {
+    color: #dc143c;
+}
 
-/* ------------------------------------------------------------Media Query 1393px */
-@media(max-width: 1393px) {
-
+/* ------------------------------------------------------------Media Query 1420px */
+@media(max-width: 1420px) {
+    .list-inline-item:not(:last-child) {
+		margin-bottom: .5rem;
+	}
 }
 
 
 /* -------------------------------------------------------------Media Query 943px */
-@media(max-width: 943px) {
+@media(max-width: 992px) {
 
 }
