@@ -16,6 +16,63 @@ body {
 	letter-spacing: .03rem;
 }
 
+/* ------------------------------------------------------------------------Navbar */
+
+.fa-space-shuttle {
+	color: #fafafa;
+    background: #01161e;
+	margin-right: 10px;
+}
+	
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background: #01161e;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+	margin-right: 5px;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.question {
+	color: #828a95
+}
+
+
+
+/* ------------------------------------------------------------------------Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 8px;
+    width: 160px;
+}
+
+.btn--red {
+    color: #01161e;
+    background-color: #ecfff8;
+    border-color: #ecfff8;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #a7260b;
+    border-color: #a7260b;
+    color: #ecfff8;
+}
+
 /* -------------------------------------------------------------------Colours used*/
 
 /* --------Rufous Red = #A72608 -- */
@@ -48,9 +105,6 @@ body {
     width: 100%;
     background-color: rgba(0,0,0,0.4);
 }
-
-/* -------------------------------------------------Special paddings/margins/text */
-
 
 /* -----------------------------------------------------------------------Heading */
 
@@ -240,9 +294,12 @@ footer {
 }
 
 /* ------------------------------------------------------------Media Query 1420px */
-@media(max-width: 1420px) {
+@media(max-width: 1280px) {
     .list-inline-item:not(:last-child) {
 		margin-bottom: .5rem;
+    }
+    .question {
+		display: none;
 	}
 }
 
@@ -267,6 +324,9 @@ footer {
 
 @media(max-width: 992px) {
     .line-divider {
+		display: none;
+    }
+    .question {
 		display: none;
 	}
 }
