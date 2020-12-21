@@ -312,6 +312,7 @@ footer {
 }
 
 /* ------------------------------------------------------------Media Query 1420px */
+
 @media(max-width: 1280px) {
     .list-inline-item:not(:last-child) {
 		margin-bottom: .5rem;
