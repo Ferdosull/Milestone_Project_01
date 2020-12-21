@@ -147,18 +147,29 @@ body {
 #photo img{
     width: 100%;
     padding: 10px 10px 10px 10px;
-    margin: 60px 10px 5px 15px;
+    margin: 10px 10px 5px 15px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
 
 /* Container holding the image and the text */
-.container {
+.container-light {
     position: relative;
     text-align: center;
     color: #ECFFF8;
     font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    letter-spacing: .03rem;
+}
+
+.container-dark {
+    position: relative;
+    text-align: center;
+    color: #01161E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
     letter-spacing: .03rem;
 }
 
@@ -166,8 +177,15 @@ body {
 .bottom-left {
     position: absolute;
     bottom: 23px;
-    left: 43px;
+    left: 30px;
 }
+
+.top-right {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+}
+
 /* -----------------------------------------------------------------------Heading */
 
 .jumbotron {
