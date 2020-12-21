@@ -50,7 +50,7 @@
             </div>
             <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i class="question">Do you have what it takes to lead the next generation?</i></p>
-                <a href="/login" class="btn btn--cta btn--red">Join Our Team!</a> <!--join our team header button-->
+                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Join Our Team!</a> <!--join our team header button linked to pop-up modal-->
             </div>
         </nav>
     </div>
@@ -171,6 +171,52 @@
     </footer>
 
 <!--End Footer-->
+
+<!--Modal Start-->
+	
+	<div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Please Submit Your Details</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<form>
+                        <div class="form-group">
+							<label for="first-name">Full Name</label>
+							<input type="text" class="form-control" id="first-name" placeholder="Enter full Name">
+                        </div>
+                        <div class="form-group">
+							<label for="contact-number">Contact No.</label>
+							<input type="numbers" class="form-control" id="contact-number" placeholder="Enter contact No.">
+                        </div>
+                        <div class="form-group">
+							<label for="career-interests">Career Interest</label>
+                            <input type="text" class="form-control" id="career-interests" placeholder="Enter career interest">
+                            <small id="careerHelp" class="form-text text-muted">Choose one of the following: <span class="modal-bold">Advanced Medical, Molecular Science, Information Technology, Agricultural Science, Engineering Science</span></small>
+                        </div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your personal details with any other party</small>
+						</div>
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                            <small id="uploadHelp" class="form-text text-muted">Please choose a .PDF version of your most recent CV for Upload. After filling out the text box areas above and uploading your CV please press <span class="modal-bold">"Submit"</span></small>
+                        </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <!--Modal End-->
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>

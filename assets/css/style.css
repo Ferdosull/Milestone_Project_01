@@ -16,6 +16,10 @@ body {
 	letter-spacing: .03rem;
 }
 
+.modal-bold {
+    font-weight: bold;
+    color: #01161E;
+}
 /* ------------------------------------------------------------------------Navbar */
 
 .fa-space-shuttle {
