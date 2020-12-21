@@ -356,7 +356,10 @@ footer {
 		margin-top: 0px;
 	}
 	.list-inline-item:not(:last-child) {
-			margin-right: .3rem;
+		margin-right: .3rem;
+    }
+    .countdown_text {  
+		font-size: 30px;
 	}	
 }
 
