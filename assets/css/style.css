@@ -61,6 +61,10 @@ body {
 	color: #828a95
 }
 
+.dropdown-menu {
+    background-color:#828A95;
+    color: black;
+}
 
 
 /* ------------------------------------------------------------------------Buttons*/
