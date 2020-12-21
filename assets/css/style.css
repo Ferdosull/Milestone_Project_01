@@ -31,7 +31,8 @@ body {
 .navalert-container {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0px;
+    right: 0px;
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
@@ -126,6 +127,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: 50px;
 }
 
 .opaque-overlay {
@@ -429,6 +431,9 @@ footer {
         top: 28px;
         right: 14px;
     }
+    .callout-container-gallery {
+        margin-top: 50px;
+    }
 }
 
 /* -------------------------------------------------------------Media Query 500px */
@@ -464,6 +469,9 @@ footer {
         position: absolute;
         top: 28px;
         right: 14px;
+    }
+    .callout-container-gallery {
+        margin-top: 50px;
     }	
 }
 
