@@ -386,6 +386,31 @@ footer {
 	}
 }
 
+/* ------------------------------------------------------------Media Query 1370px */
+@media(max-width: 1370px) {
+    #photo{
+        column-count:3;
+        column-gap: 0px;
+    }
+
+    #photo img{
+        margin-left: 0px;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 23px;
+        left: 14px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 28px;
+        right: 14px;
+    }
+    .callout-container-gallery {
+        margin-top: 50px;
+    }
+}
 
 /* -------------------------------------------------------------Media Query 992px */
 
