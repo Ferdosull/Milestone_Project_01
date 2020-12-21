@@ -23,7 +23,16 @@ body {
     background: #01161e;
 	margin-right: 10px;
 }
-	
+
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
 .navbar {
     margin-bottom: 0;
     border: 0;
