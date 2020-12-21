@@ -349,5 +349,12 @@ footer {
 	}
 	.jumbotron-header {
 		font-size: 50px;
+		margin-bottom: 20px;
 	}
+	#countdown_timer {
+		margin-top: 0px;
+	}
+	.list-inline-item:not(:last-child) {
+			margin-right: .3rem;
+	}	
 }
