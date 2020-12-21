@@ -173,7 +173,7 @@ body {
     letter-spacing: .03rem;
 }
 
-/* Bottom left text Photo Gallery*/
+/* Bottom left and Top Right text Photo Gallery*/
 .bottom-left {
     position: absolute;
     bottom: 23px;
@@ -418,6 +418,17 @@ footer {
     #photo img{
         margin-left: 0px;
     }
+    .bottom-left {
+        position: absolute;
+        bottom: 23px;
+        left: 14px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 28px;
+        right: 14px;
+    }
 }
 
 /* -------------------------------------------------------------Media Query 500px */
@@ -442,6 +453,17 @@ footer {
     }
     #photo{
         column-count:1;
+    }
+    .bottom-left {
+        position: absolute;
+        bottom: 23px;
+        left: 14px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 28px;
+        right: 14px;
     }	
 }
 
