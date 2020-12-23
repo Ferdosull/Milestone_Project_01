@@ -332,10 +332,15 @@ animation: fadeIn ease 4s;
 
 .input-group {
     margin-top: 2.4rem;
+    margin-left: 0.1rem;
 }
 
 .choose-file {
     margin-top: 2.2rem;
+}
+
+.careers {
+    margin-right: 0.1rem;
 }
 
 /* ------------------------------------------------------------------------Footer */
