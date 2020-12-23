@@ -1,7 +1,7 @@
 1. Change Instagram Colour to its dark orange colour. It is Purple Currently.- Done 23-12-2020
 2. In the form section. Get rid of the text above the entry boxes. Placeholder text is sufficient alone.- Done 23-12-2020
 Change "Please Submit Your Details" to "Join Our Team!- Done 23-12-2020
-3. Chane the "Career Interests" to a drop down box. Allen has suggested HTML Select.
+3. Chane the "Career Interests" to a drop down box. Allen has suggested HTML Select. Done 23-12-2020
 Please see below links:
 https://www.w3schools.com/tags/tag_select.asp
 https://getbootstrap.com/docs/5.0/forms/input-group/
