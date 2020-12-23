@@ -1,17 +1,18 @@
-1. Change Instagram Colour to its dark orange colour. It is Purple Currently.
-2. In the form section. Get rid of the text above the entry boxes. Placeholder text is sufficient alone. 
-Change "Please Submit Your Details" to "Join Our Team!
+1. Change Instagram Colour to its dark orange colour. It is Purple Currently.- Done 23-12-2020
+2. In the form section. Get rid of the text above the entry boxes. Placeholder text is sufficient alone.- Done 23-12-2020
+Change "Please Submit Your Details" to "Join Our Team!- Done 23-12-2020
 3. Chane the "Career Interests" to a drop down box. Allen has suggested HTML Select.
 Please see below links:
 https://www.w3schools.com/tags/tag_select.asp
 https://getbootstrap.com/docs/5.0/forms/input-group/
 https://getbootstrap.com/docs/5.0/forms/floating-labels/
 
-4. Also in the form section, remove the "Upload button" and also remove bottom text and leave "Please choose a .PDF version of your most recent CV".
-5. Make the submit button slightly bigger for desktop and alot bigger for mobile. Style it red in keeping with the theme.
-6. Have the pictures in the gallery open in their own page once clicked.
+4. Also in the form section, remove the "Upload button"- Done 23-12-2020
+5. Remove bottom text and leave "Please choose a .PDF version of your most recent CV".- Done 23-12-2020
+6. Make the submit button slightly bigger for desktop and alot bigger for mobile. Style it red in keeping with the theme.- Done 23-12-2020
+7. Have the pictures in the gallery open in their own page once clicked. Have the white text appear with an opague background.
 
-7. In the README Mark down create a table of contents for the content.
+8. In the README Mark down create a table of contents for the content.
 Increase the sizes of the images.
 Use bullet points for the pictures and credits.
 

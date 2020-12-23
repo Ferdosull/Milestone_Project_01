@@ -20,6 +20,19 @@ body {
     font-weight: bold;
     color: #01161E;
 }
+
+.modal-header {
+    background-color: #828A95;
+}
+
+.modal-title {
+    font-family: Big Shoulders Stencil Text;
+    font-size: 40px;
+    color: #fafafa;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* ------------------------------------------------------------------------Navbar */
 
 .fa-space-shuttle {
@@ -87,6 +100,29 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
+    background-color: #a7260b;
+    border-color: #a7260b;
+    color: #ecfff8;
+}
+
+.btn-modal {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 120px;
+}
+
+.btn--red2 {
+    color: #01161e;
+    background-color: #828A95;
+    border-color: #828A95;
+}
+
+.btn--red2:hover,
+.btn--red2:active,
+.btn--red2:focus,
+.btn--red2:active:focus {
     background-color: #a7260b;
     border-color: #a7260b;
     color: #ecfff8;
@@ -281,6 +317,12 @@ animation: fadeIn ease 4s;
 
 /* ---------------------------------------------------------------------Hover.css */
 
+/* ---------------------------------------------------------------------Modal.css */
+
+.input-group-text {
+    display: none;
+}
+
 
 /* ------------------------------------------------------------------------Footer */
 #footer-details {
@@ -376,7 +418,7 @@ footer {
     color: #dc143c;
 }
 
-/* ------------------------------------------------------------Media Query 1420px */
+/* ------------------------------------------------------------Media Query 1280px */
 
 @media(max-width: 1280px) {
     .list-inline-item:not(:last-child) {
@@ -384,7 +426,13 @@ footer {
     }
     .question {
 		display: none;
-	}
+    }
+    .btn-modal {
+        font-size: 30px;
+        border-radius: 10px;
+        width: 170px;
+        height: 60px;
+    }
 }
 
 /* ------------------------------------------------------------Media Query 1370px */
@@ -516,6 +564,12 @@ footer {
 		margin-top: 0px;
 	}
 	.list-inline-item:not(:last-child) {
-			margin-right: .3rem;
-	}	
+		margin-right: .3rem;
+    }
+    .btn-modal {
+        font-size: 30px;
+        border-radius: 10px;
+        width: 170px;
+        height: 60px;
+    }	
 }
