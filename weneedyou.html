@@ -25,8 +25,8 @@
     <!-- Start Nav Bar-->
     <div class="container-fluid navalert-container">
         <nav class="navbar navbar-dark navbar-expand-md">
-            <a target="_blank" href="/" class="navbar-brand">RED ZONE Layer 1</a>
-            <a target="_blank" href="#"><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
+            <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
+            <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
                 <span class="sr-only">Space-Shuttle</span>
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -66,25 +66,25 @@
 
     <!-- Start We Need You Section-->
 
-   <div class="container-fluid callout-container">
+    <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div>
         <!--<div class="row">-->
-            
-            <div class="col-3">
-                <section>                
-                    <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
-                </section>
-            </div>
-            <div class="col-7">
-                <section>
-                    <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
-                </section>
-            </div>
-            <div class="col-2">
-                <section>
-                    <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
-                </section>
-            </div>
+
+        <div class="col-3">
+            <section>
+                <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
+            </section>
+        </div>
+        <div class="col-7">
+            <section>
+                <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
+            </section>
+        </div>
+        <div class="col-2">
+            <section>
+                <h1 class="jumbotron-header fade-in-2sec">We Need You</h1>
+            </section>
+        </div>
         <!--</div>-->
     </div>
 
@@ -179,13 +179,15 @@
                             <input type="numbers" class="form-control" id="contact-number"
                                 placeholder="Enter Contact No.">
                         </div>
-                        <div class="form-group">
-                            <label for="career-interests"></label>
-                            <input type="text" class="form-control" id="career-interests"
-                                placeholder="Enter Career Interest">
-                            <small id="careerHelp" class="form-text text-muted">Choose one of the following: <span
-                                    class="modal-bold">Advanced Medical, Molecular Science, Information Technology,
-                                    Agricultural Science, Engineering Science</span></small>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>Choose an Option...</option>
+                                <option value="1">Advanced Medical</option>
+                                <option value="2">Information Technology</option>
+                                <option value="3">Agricultural Science</option>
+                                <option value="4">Engineering Science</option>
+                            </select>
+                            <label for="inputGroupSelect01" class="form-control">Careers</label>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1"></label>
@@ -194,7 +196,7 @@
                             <small id="emailHelp" class="form-text text-muted">We'll never share your personal details
                                 with any other party</small>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group choose-file">
                             <input type="file" class="form-control" id="inputGroupFile02">
                             <label class="input-group-text" for="inputGroupFile02">Choose File</label>
                             <small id="uploadHelp" class="form-text text-muted">Please choose a .PDF version of your
