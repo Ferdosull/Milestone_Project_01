@@ -567,8 +567,20 @@ footer {
         margin-top: 50px;
     }	
 }
+/* ---------------------------------------------------------Media Query 365px */
 
-/* ---------------------------------------------------------Media Query 420px (height) */
+@media(max-width: 365px) {
+    .modal-title {
+        font-size: 30px;
+    }
+    .modal-shuttle {
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+        margin-top: 0.8rem;
+    }	
+}
+
+/* ------------------------------------------------Media Query 420px (height) */
 
 @media(max-height: 420px) {
     .jumbotron {

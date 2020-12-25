@@ -200,8 +200,8 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="first-name"></label>
-                            <input type="text" class="form-control" id="first-name" placeholder="Enter Full Name">
+                            <label for="first-name">Required fields are marked with an (*)</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="*Enter Full Name" required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
@@ -210,7 +210,7 @@
                         </div>
                         <div class="input-group mb-3">
                             <select class="form-select" id="inputGroupSelect01">
-                                <option selected>Choose an Option...</option>
+                                <option selected>*Choose an Option...</option>
                                 <option value="1">Advanced Medical</option>
                                 <option value="2">Information Tech.</option>
                                 <option value="3">Agriculture Science</option>
@@ -221,12 +221,12 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1"></label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter Email Address">
+                                aria-describedby="emailHelp" placeholder="*Enter Email Address" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your personal details
                                 with any other party</small>
                         </div>
                         <div class="form-group choose-file">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" id="inputGroupFile02" required>
                             <label class="input-group-text" for="inputGroupFile02">Choose File</label>
                             <small id="uploadHelp" class="form-text text-muted">Please choose a .PDF version of your
                                 most recent CV.</small>
