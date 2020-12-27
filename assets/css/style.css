@@ -33,6 +33,27 @@ body {
     margin-bottom: 0px;
 }
 
+.about-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: .03rem;
+    color: #ecfff8;
+    margin-right: 4rem;
+}
+
+.ceo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: .03rem;
+    color: #ecfff8;
+}
+
+.opaque {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 0.3rem;
+    border-radius: 0.3rem;
+}
+
 /* ------------------------------------------------------------------------Navbar */
 
 .fa-space-shuttle {
@@ -204,13 +225,19 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
 }
+
+.col-2 img {
+    width: 100%;
+    margin: 10px 0px 15px 0px;
+}
+
 .col-3 img {
     width: 100%;
     margin: 10px 0px 15px 0px;
 }
 
 .company-logo img {
-    width: 30%;
+    width: 60%;
     margin-top: 1.5rem;
 }
 
