@@ -38,7 +38,8 @@ body {
     font-size: 0.9rem;
     letter-spacing: .03rem;
     color: #ecfff8;
-    margin-right: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .ceo-text {
@@ -52,6 +53,11 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     padding-left: 0.3rem;
     border-radius: 0.3rem;
+}
+
+.about-us-header {
+    text-align: center;
+    padding-right: 2rem;
 }
 
 /* ------------------------------------------------------------------------Navbar */
@@ -288,7 +294,7 @@ body {
 	font-size: 60px;
 	letter-spacing: 8px;
     margin-bottom: 50px;
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .red-text {
