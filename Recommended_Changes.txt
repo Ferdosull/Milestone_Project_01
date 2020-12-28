@@ -17,3 +17,4 @@ Increase the sizes of the images.
 Use bullet points for the pictures and credits.
 
 Make sure to run the validators and document in the README.MD
+Links to specific parts on the "We Need You" Page were added using the #id function.
