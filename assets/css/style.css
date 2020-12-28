@@ -42,6 +42,16 @@ body {
     margin-left: 2rem;
 }
 
+.weneedyou-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: .03rem;
+    color: #ecfff8;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 .ceo-text {
     font-family: 'Poppins', sans-serif;
     font-size: 0.8rem;
@@ -207,6 +217,19 @@ body {
     margin-top: 50px;
 }
 
+.callout-container-weneedyou {
+    height: 100%;
+    background: url(../images/mars1.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -237,6 +260,11 @@ body {
     margin: 10px 0px 15px 0px;
 }
 
+.col-2 a {
+    width: 100%;
+    margin-top: 2rem;
+}
+
 .col-3 img {
     width: 100%;
     margin: 10px 0px 15px 0px;
@@ -245,6 +273,11 @@ body {
 .company-logo img {
     width: 60%;
     margin-top: 1.5rem;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ceo-box-shadow {
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.2); 
 }
 
 
