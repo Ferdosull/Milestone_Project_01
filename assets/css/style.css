@@ -716,6 +716,7 @@ footer {
         width: 70%;
         margin-left: 15%;
         margin-right: 15%;
+        padding: 30px;
         font-size: 18px;
     }
 
@@ -856,6 +857,7 @@ footer {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        padding: 40px;
         font-size: 14px;
     }
 }
