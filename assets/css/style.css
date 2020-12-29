@@ -78,11 +78,6 @@ body {
     border-radius: 0.3rem;
 }
 
-.about-us-header {
-    text-align: center;
-    padding-right: 2rem;
-}
-
 .initial-space {
     margin-top: 1rem;
 }
@@ -226,7 +221,7 @@ body {
 
 .callout-container-about {
     height: 100%;
-    background: url(../images/mars1.jpg) no-repeat bottom right fixed; 
+    background: url(../images/mars1B.jpg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -312,15 +307,42 @@ body {
     margin-top: 2rem;
 }
 
-.company-logo img {
+.about-left-column {
+    width: 15%;
+    text-align: center;
+}
+
+.about-middle-column {
     width: 60%;
+    text-align: center;
+}
+
+.about-right-column {
+    width: 25%;
+    text-align: center;
+}
+
+.company-logo img {
+    width: 80%;
     margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.col-3 img {
-    width: 100%;
-    margin: 10px 0px 15px 0px;
+.about-right-column img {
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-right-column p {
+    width: 80%;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ceo-box-shadow {
@@ -475,6 +497,14 @@ animation: fadeIn ease 4s;
 }
 
 .pic-container:hover .pic-overlay {
+    opacity: 1;
+}
+
+.pic-container:focus .pic-overlay {
+    opacity: 1;
+}
+
+.pic-container:active .pic-overlay {
     opacity: 1;
 }
 
@@ -688,6 +718,47 @@ footer {
         margin-right: 15%;
         font-size: 18px;
     }
+
+    .about-left-column {
+        width: 100%;
+    }
+
+    .about-middle-column {
+        width: 100%;
+    }
+
+    .about-right-column {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .company-logo img {
+        width: 40%;
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-right-column img {
+        width: 50%;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-middle-column p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-right-column p {
+        width: 50%;
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
@@ -742,6 +813,30 @@ footer {
     }
     .weneedyou-body {
         font-size: 0.8rem;
+    }
+
+    .company-logo img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-right-column img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-middle-column p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-right-column p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
