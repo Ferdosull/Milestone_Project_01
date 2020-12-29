@@ -452,7 +452,31 @@ animation: fadeIn ease 4s;
 100% {opacity:1;}
 }
 
-/* ---------------------------------------------------------------------Hover.css */
+/* ------------------------------------------------------------Hover/Overlays.css */
+
+.pic-container {
+    position: relative;   
+}
+
+.pic-overlay {
+    position: absolute; 
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fafafa; 
+    width: 100%;
+    margin-left: 0.95rem;
+    margin-right: 0rem;
+    transition: .5s ease;
+    opacity:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+.pic-container:hover .pic-overlay {
+    opacity: 1;
+}
 
 /* ---------------------------------------------------------------------Modal.css */
 
@@ -657,10 +681,17 @@ footer {
     .final-space a {
         margin-top: 1rem;
     }
+    
+    .pic-overlay {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 18px;
+    }
 }
 
 
-/* -------------------------------------------------Media Query 992px (min-widht) */
+/* -------------------------------------------------Media Query 992px (min-width) */
 
 @media(min-width: 992px) {
     #countdown_timer {
@@ -724,6 +755,13 @@ footer {
 
     .middle-column p {
         width: 90%;
+    }
+
+    .pic-overlay {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 14px;
     }
 }
 
