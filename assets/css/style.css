@@ -47,6 +47,17 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     letter-spacing: .03rem;
+    text-align: justify;
+    color: #ecfff8;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.weneedyou-font {
+    font-family: Big Shoulders Stencil Text, sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: .05rem;
     color: #ecfff8;
     margin-top: 1rem;
     margin-right: 2rem;
@@ -70,6 +81,14 @@ body {
 .about-us-header {
     text-align: center;
     padding-right: 2rem;
+}
+
+.initial-space {
+    margin-top: 1rem;
+}
+
+.final-space {
+    margin-bottom: 1rem;
 }
 
 /* ------------------------------------------------------------------------Navbar */
@@ -193,7 +212,7 @@ body {
 
 .callout-container-gallery {
     height: 100%;
-    background: url(../images/mars1.jpg) no-repeat bottom right fixed; 
+    background: url(../images/mars1.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -219,9 +238,22 @@ body {
     margin-top: 50px;
 }
 
-.callout-container-weneedyou {
+.callout-container-weneedyou1 {
     height: 100%;
-    background: url(../images/mars1.jpg) no-repeat bottom right fixed; 
+    background: url(../images/mars1B.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+.callout-container-weneedyou2 {
+    height: 100%;
+    background: url(../images/mars1B.jpg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -257,25 +289,38 @@ body {
     border-radius: 5px;
 }
 
-.col-2 img {
-    width: 100%;
-    margin: 10px 0px 15px 0px;
+
+.left-column {
+    width: 25%;
 }
 
-.col-2 a {
+.middle-column {
+    width: 50%;
+}
+
+.right-column {
+    width: 20%;
+    text-align: center;
+}
+
+.left-column img {
     width: 100%;
+    margin: 10px 15px 10px 15px;
+}
+
+.right-column a {
     margin-top: 2rem;
-}
-
-.col-3 img {
-    width: 100%;
-    margin: 10px 0px 15px 0px;
 }
 
 .company-logo img {
     width: 60%;
     margin-top: 1.5rem;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.col-3 img {
+    width: 100%;
+    margin: 10px 0px 15px 0px;
 }
 
 .ceo-box-shadow {
@@ -544,6 +589,47 @@ footer {
         width: 170px;
         height: 60px;
     }
+
+    .left-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-column {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .left-column img {
+        width: 70%;
+    }
+
+    .middle-column p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .initial-space p{
+        margin-top: 0rem;
+    }
+
+    .initial-space a{
+        margin-top: 1rem;
+    }
+
+    .final-space p {
+        margin-top: 0rem;
+    }
+   
+    .final-space a {
+        margin-top: 1rem;
+    }
 }
 
 /* ------------------------------------------------------------Media Query 1370px */
@@ -618,6 +704,9 @@ footer {
     }
     .callout-container-gallery {
         margin-top: 50px;
+    }
+    .weneedyou-body {
+        font-size: 0.8rem;
     }
 }
 
