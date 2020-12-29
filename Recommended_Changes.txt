@@ -19,3 +19,11 @@ Use bullet points for the pictures and credits.
 Make sure to run the validators and document in the README.MD
 Links to specific parts on the "We Need You" Page were added using the #id function.
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title how to hover over an image with text displaying.
+
+Use the following websites for inspiration on "we Need You Section"
+https://www.sciencenews.org/article/mars-farming-harder-martian-regolith-soil
+https://www.nasa.gov/centers/ames/research/humaninspace/humansinspace-informationtechnology.html
+https://physicsworld.com/a/space-science-and-engineering-the-journey-starts-here/ https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/space-science-engineering-msc https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_for_space
+https://www.esa.int/About_Us/EAC/Space_Medicine
+
+
