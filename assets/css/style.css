@@ -59,7 +59,7 @@ body {
     font-size: 1.6rem;
     letter-spacing: .05rem;
     color: #ecfff8;
-    margin-top: 1rem;
+    margin-top: 0.65rem;
     margin-right: 2rem;
     margin-left: 2rem;
 }
@@ -132,7 +132,6 @@ body {
     background-color:#828A95;
     color: black;
 }
-
 
 /* ------------------------------------------------------------------------Buttons*/
 
@@ -304,7 +303,7 @@ body {
 }
 
 .right-column a {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .about-left-column {
@@ -548,7 +547,7 @@ footer {
 }
 
 .social-links {
-    padding-bottom: 15px;
+    padding-bottom: 0;
 }
 
 .social-links li a i {
@@ -560,7 +559,6 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #535353;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -582,33 +580,46 @@ footer {
     color: #777777;
 }
 
+.fa-facebook {
+    background: #4267B2;
+}
+
+.fa-instagram {
+    background: #fbad50;
+}
+
+.fa-twitter {
+    background: #1DA1F2;
+}
+
+.fa-youtube {
+    background: #FF0000;
+}
+
+.fa-linkedin {
+    background: #0072b1;
+}
+
+.fa-pinterest {
+    background: #E60023;
+}
+
 .list-inline-item:not(:last-child) {
 		margin-right: .65rem;
 }
 
-.fa-facebook:hover {
-    background: #4267B2;
+.social-links li a i:hover {
+    background: #535353;
 }
 
-.fa-instagram:hover {
-    background: #fbad50;
-    /*background: #8a3ab9;*/
+.fa-mobile-alt {
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
 }
 
-.fa-twitter:hover {
-    background: #1DA1F2;
-}
-
-.fa-youtube:hover {
-    background: #FF0000;
-}
-
-.fa-linkedin:hover {
-    background: #0072b1;
-}
-
-.fa-pinterest:hover {
-    background: #E60023;
+.fa-envelope {
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
 }
 
 /* -----------------------------------------------------Download Application Form */
@@ -626,6 +637,14 @@ footer {
 
 .application-pdf i:hover {
     color: #dc143c;
+}
+
+/* ------------------------------------------------------------Media Query 1400px */
+
+@media(max-width: 1400px) {
+    .weneedyou-body {
+        font-size: 0.8rem;
+    }
 }
 
 /* ------------------------------------------------------------Media Query 1370px */
@@ -684,6 +703,10 @@ footer {
     .right-column {
         width: 100%;
         margin-bottom: 5rem;
+    }
+
+    .right-column a {
+        margin-top: 2rem;
     }
 
     .left-column img {
@@ -759,6 +782,9 @@ footer {
         margin-top: 1.5rem;
         margin-left: auto;
         margin-right: auto;
+    }
+    .weneedyou-body {
+        font-size: 0.9rem;
     }
 }
 
