@@ -27,6 +27,8 @@ https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_fo
 https://www.esa.int/About_Us/EAC/Space_Medicine
 
 Telephone links https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number
+mailto links https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-create-a-link-that-if-clicked-on-it-opens-the-clients-email-application/
+
 
 
 
