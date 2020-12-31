@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+
+    <!-- Bootstrap, Font Awesome Icons, Jquery and Google Fonts links and scripts -->
+
     <meta charset="UTF-8">
     <title>Red Zone | Mission 2 Mars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,114 +25,145 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap, Font Awesome Icons, Jquery and Google Fonts links and scripts -->
+
 </head>
 
 <body>
-    <!-- Start Nav Bar-->
-    <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-dark navbar-expand-md">
-            <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
-            <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
-                <span class="sr-only">Space-Shuttle</span>
-            </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="weneedyou.html">We Need You</a></li>
-                    <!--<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            We Need You
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="weneedyou.html#am">Advanced Medical</a>
-                            <a class="dropdown-item" href="weneedyou.html#it">Information Tech.</a>
-                            <a class="dropdown-item" href="weneedyou.html#as">Agriculture Science</a>
-                            <a class="dropdown-item" href="weneedyou.html#es">Engineering Science</a>
-                        </div>
-                    </li>-->
-                    <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" data-toggle="modal"
-                            data-target="#signupmodal">Join Our Team!</a></li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i class="question">Do you have what it takes to lead the next
-                        generation?</i></p>
-                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Join Our Team!</a>
-                <!--join our team header button linked to pop-up modal-->
-            </div>
-        </nav>
-    </div>
+    <header>
 
-    <!-- End Nav Bar-->
+        <!-- Start Nav Bar-->
+
+        <div class="container-fluid navalert-container">
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
+                <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
+                    <span class="sr-only">Space-Shuttle</span>
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="weneedyou.html">We Need You</a></li>
+                        <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" data-toggle="modal"
+                                data-target="#signupmodal">Join Our Team!</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block">
+                    <p class="navbar-text my-auto mr-2"><i class="question">Do you have what it takes to lead the next
+                            generation?</i></p>
+                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Join Our Team!</a>
+                    <!--join our team header button linked to pop-up modal-->
+                </div>
+            </nav>
+        </div>
+
+        <!-- End Nav Bar-->
+
+    </header>
 
     <!-- Start About-Section-->
 
     <div class="container-fluid callout-container-about">
         <div class="row">
-        <div class="about-left-column">
-            <div class="company-logo">
-                <a href="assets/images/RSEC-Logo.jpg" target="_blank">
-                <img src="assets/images/RSEC-Logo.jpg" alt="RSEC Logo"></a>
+            <div class="about-left-column">
+                <div class="company-logo">
+                    <a href="assets/images/RSEC-Logo.jpg" target="_blank">
+                        <img src="assets/images/RSEC-Logo.jpg" alt="RSEC Logo"></a>
+                </div>
+            </div>
+            <div class="about-middle-column">
+                <section>
+                    <h1 class="jumbotron-header fade-in-2sec">About Us</h1>
+                    <p class="about-body opaque">RSEC stands for Red-Zone Space Exploration Company.
+                        RSEC is a private owned space exploration company which is part funded by <a
+                            href="https://www.nasa.gov/" target="_blank">NASA</a> and the USA governments National Space
+                        League.
+                        RSEC is considered to be responsible for innovation in science and renewable electrical
+                        technology related to air and space flight.
+                    </p>
+                    <p class="about-body opaque">RSEC was founded in 2012 and officially opened its doors for business
+                        in March of 2013.
+                        RSEC’s first paying clients were NASA. In 2013 NASA were in a position to part-share a
+                        percentage of their funding with other Aerospace bodies including RSEC.
+                        The task set out by NASA for RSEC was to design and build a space craft capable of housing 10
+                        multidisciplined scientists while they
+                        continued to carry out experiments in Earths Outer Thermosphere and Exosphere in the hopes of
+                        some day colonising Mars.
+                    </p>
+                    <p class="about-body opaque">The space craft needed to provide an adequate living environment and be
+                        self sustainable for a period of 15 days before carrying out its descent back to Earth.
+                        Previous missions carried out by other private companies were successful but huge costs were
+                        involved in getting what should have been a relatively small spacecraft into the Exosphere.
+                        The fuel required for the return trip back from orbit needed to be present on the ascent also.
+                        This is what led other companies to increase the size of their spacecrafts to 2-3 times the
+                        required size.
+                        This additional weight and fuel added millions of dollars onto their budget which meant the
+                        experimentation missions were less frequent.
+                        Having the fuel onboard for the full 15 days before descent also posed its own issues and safety
+                        concerns.
+                    </p>
+                    <p class="about-body opaque">The goal for RSEC was to reduce initial fuel & weight requirements and
+                        return back from orbit by a different more efficient method.
+                        In order to ensure RSEC were more efficient, Dr Warren Scruff (RSEC CEO) started interviewing
+                        and recruiting team members from all engineering professions and
+                        assembled a “Space Travel Efficiency R & D Team” which he headed up himself. The results of the
+                        team’s efforts culminated in the decision to place the first of
+                        its kind, Solar Re-Charge Docking Station “EVE-02” in the Earths Exosphere roughly 2000km above
+                        ground level. The docking station houses a 55MW Alu-Graphene-ion
+                        battery, capable of continues charging by utilising both solar energy (when in full view of the
+                        sun) and cosmic radiation adsorption (CAMS).
+                    </p>
+                    <p class="about-body opaque">RSEC is known worldwide for its advancements in the battery sector and
+                        for its efficient conversion of radiation into safe usable power.
+                        The team’s discovery and evolution of the CAMS (Charged Atom Magnetic Separator) system was a
+                        game changer for the company which meant the return trip could be fuelled by
+                        recharging the crafts internal Alu-Graphene-ion battery, while docked at the EVE-02 station. The
+                        Alu-Graphene-ion battery was another victory for the company. Its charging capacity,
+                        power output and weight is unmatched by any other battery type on the market, the nearest being
+                        16 times the same physical size for the equivalent power output.
+                    </p>
+                    <p class="about-body opaque">Fast-forward to 2018 and based on RSECs innovative and successful
+                        results, NASA made a decision to cement their unity with RSEC and together they have formed a
+                        Space Coalition.
+                        The declaration by both companies is to have the first human colony, “Layer 1”, set foot on
+                        Martian soil by the year 2029. NASA has agreed to provide the funding for these missions and
+                        have left RSEC to
+                        select the right candidates to research and develop equipment which will aid the first missions.
+                    </p>
+                    <p class="about-body opaque">It is now 2020 and Layer 1 works are well underway. As part of the
+                        ongoing evolution of RSECs tech, Warren has decided to hire more engineering staff to expand the
+                        <a href="weneedyou.html">RSEC Team</a> in the areas of: Advanced Medical Science,
+                        Information Technology, Agricultural Science and Engineering Science. Warren is looking for
+                        established professionals to join his team but also students who have the passion and drive, to
+                        place human life on Mars, that he shares.
+                        Students who apply will be evaluated for a scholarship based previous merits and project based
+                        team work. The successful candidates will be contacted by our HR Team.
+                    </p>
+                </section>
+            </div>
+            <div class="about-right-column">
+                <a href="assets/images/CEO.jpg" target="_blank">
+                    <img class="ceo-box-shadow" src="assets/images/CEO.jpg" alt="RSEC CEO"></a>
+                <p class="ceo-text opaque">Dr. Warren Scruff, CEO and founder of RSEC (Red Zone Space Exploration
+                    Co.)</p>
+                <p class="ceo-text opaque">Dr. Scruff graduated from the <a href="https://www.upenn.edu/"
+                        target="_blank">University of Pennsylvania</a> in 1992 with a first class honors degree in
+                    mechanical design.
+                    He moved to California in 1995 where he completed a Ph.D. in applied physics and material
+                    sciences at <a href="https://www.stanford.edu/" target="_blank">Stanford University.</a></p>
+                <p class="ceo-text opaque">In March 2012, Scruff founded RSEC, an aerospace manufacturer and
+                    intergalactic transport services company of which he is now the CEO and lead designer.</p>
+                <p class="ceo-text opaque">His passion and vision has always, and will continue to be, the
+                    preservation of human life, whether that be on Earth or Mars.</p>
             </div>
         </div>
-        <div class="about-middle-column">
-            <section>
-                <h1 class="jumbotron-header fade-in-2sec">About Us</h1>
-                <p class="about-body opaque">RSEC stands for Red-Zone Space Exploration Company. 
-                    RSEC is a private owned space exploration company which is part funded by <a href="https://www.nasa.gov/" target="_blank">NASA</a> and the USA governments National Space League.  
-                    RSEC is considered to be responsible for innovation in science and renewable electrical technology related to air and space flight. 
-                </p>
-                <p class="about-body opaque">RSEC was founded in 2012 and officially opened its doors for business in March of 2013. 
-                    RSEC’s first paying clients were NASA. In 2013 NASA were in a position to part-share a percentage of their funding with other Aerospace bodies including RSEC. 
-                    The task set out by NASA for RSEC was to design and build a space craft capable of housing 10 multidisciplined scientists while they 
-                    continued to carry out experiments in Earths Outer Thermosphere and Exosphere in the hopes of some day colonising Mars.
-                </p>
-                <p class="about-body opaque">The space craft needed to provide an adequate living environment and be self sustainable for a period of 15 days before carrying out its descent back to Earth. 
-                    Previous missions carried out by other private companies were successful but huge costs were involved in getting what should have been a relatively small spacecraft into the Exosphere. 
-                    The fuel required for the return trip back from orbit needed to be present on the ascent also. This is what led other companies to increase the size of their spacecrafts to 2-3 times the required size. 
-                    This additional weight and fuel added millions of dollars onto their budget which meant the experimentation missions were less frequent. 
-                    Having the fuel onboard for the full 15 days before descent also posed its own issues and safety concerns. 
-                </p>
-                <p class="about-body opaque">The goal for RSEC was to reduce initial fuel & weight requirements and return back from orbit by a different more efficient method. 
-                    In order to ensure RSEC were more efficient, Dr Warren Scruff (RSEC CEO) started interviewing and recruiting team members from all engineering professions and 
-                    assembled a “Space Travel Efficiency R & D Team” which he headed up himself. The results of the team’s efforts culminated in the decision to place the first of 
-                    its kind, Solar Re-Charge Docking Station “EVE-02” in the Earths Exosphere roughly 2000km above ground level. The docking station houses a 55MW Alu-Graphene-ion 
-                    battery, capable of continues charging by utilising both solar energy (when in full view of the sun) and cosmic radiation adsorption (CAMS). 
-                </p>
-                <p class="about-body opaque">RSEC is known worldwide for its advancements in the battery sector and for its efficient conversion of radiation into safe usable power. 
-                    The team’s discovery and evolution of the CAMS (Charged Atom Magnetic Separator) system was a game changer for the company which meant the return trip could be fuelled by 
-                    recharging the crafts internal Alu-Graphene-ion battery, while docked at the EVE-02 station. The Alu-Graphene-ion battery was another victory for the company. Its charging capacity, 
-                    power output and weight is unmatched by any other battery type on the market, the nearest being 16 times the same physical size for the equivalent power output.
-                </p>
-                <p class="about-body opaque">Fast-forward to 2018 and based on RSECs innovative and successful results, NASA made a decision to cement their unity with RSEC and together they have formed a Space Coalition. 
-                    The declaration by both companies is to have the first human colony, “Layer 1”, set foot on Martian soil by the year 2029. NASA has agreed to provide the funding for these missions and have left RSEC to 
-                    select the right candidates to research and develop equipment which will aid the first missions.
-                </p>
-                <p class="about-body opaque">It is now 2020 and Layer 1 works are well underway. As part of the ongoing evolution of RSECs tech, Warren has decided to hire more engineering staff to expand the <a href="weneedyou.html">RSEC Team</a> in the areas of: Advanced Medical Science, 
-                    Information Technology, Agricultural Science and Engineering Science. Warren is looking for established professionals to join his team but also students who have the passion and drive, to place human life on Mars, that he shares. 
-                    Students who apply will be evaluated for a scholarship based previous merits and project based team work. The successful candidates will be contacted by our HR Team.
-                </p>
-            </section>
-        </div>
-        <div class="about-right-column">
-            <section>
-                <a href="assets/images/CEO.jpg" target="_blank">
-                <img class="ceo-box-shadow" src="assets/images/CEO.jpg" alt="RSEC CEO"></a>
-                <p class="ceo-text opaque">Dr. Warren Scruff, CEO and founder of RSEC (Red Zone Space Exploration Co.)</p>
-                <p class="ceo-text opaque">Dr. Scruff graduated from the <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a> in 1992 with a first class honors degree in mechanical design. 
-                    He moved to California in 1995 where he completed a Ph.D. in applied physics and material sciences at <a href="https://www.stanford.edu/" target="_blank">Stanford University.</a></p>
-                <p class="ceo-text opaque">In March 2012, Scruff founded RSEC, an aerospace manufacturer and intergalactic transport services company of which he is now the CEO and lead designer.</p>
-                <p class="ceo-text opaque">His passion and vision has always, and will continue to be, the preservation of human life, whether that be on Earth or Mars.</p>
-            </section>
-        </div>
-        </div>
-        <!--</div>-->
     </div>
 
     <!-- End About Section-->
@@ -141,12 +175,13 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">RSEC Layer 1 Basic Mission Objectives</h5>
                 <p class="inline-block">in 2029, 20 individuals will touch down on the surface of Mars with a view to
-                    establishing living quaters, growing crops, processing & sustaining Oxygen, regulating heat, and harvesting water.
+                    establishing living quaters, growing crops, processing & sustaining Oxygen, regulating heat, and
+                    harvesting water.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Meeting Our Employment Pre-requisutes</h5>
-                <p class="inline-block">If you do not meet our employment pre-requisites dont worry. 
+                <p class="inline-block">If you do not meet our employment pre-requisites dont worry.
                     There is still time to upskill and be part of our team. Download a Scholarship application
                     form here.
                     <a href="assets/application/application-form.pdf" target="_blank" class="application-pdf">
@@ -195,9 +230,9 @@
                         </a>
                     </li>
                 </ul>
-                <p>        
+                <p>
                     <i class="fas fa-mobile-alt" aria-hidden="true"></i>
-                    <a class="link-font" href="tel:+555(0)55 554433221">+555(0)55-554433221</a>
+                    <a class="link-font" href="tel:+555(0)55554433221">+555(0)55-554433221</a>
                 </p>
                 <p>
                     <i class="far fa-envelope" aria-hidden="true"></i>
@@ -226,18 +261,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number"
-                                placeholder="Enter Contact No.">
+                            <input type="tel" class="form-control" id="contact-number" placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
                             <select class="form-select" id="inputGroupSelect01">
@@ -272,4 +308,5 @@
     <!--Modal End-->
 
 </body>
+
 </html>

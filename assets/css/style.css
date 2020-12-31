@@ -1,11 +1,11 @@
 /* -------------------------------------------------------------------------Fonts */
 .text-uppercase {
     text-align: center;
-	font-family: Big Shoulders Stencil Text;
+	font-family: 'Big Shoulders Stencil Text', cursive;
 }
 
 .general-sub {
-	font-family: Big Shoulders Stencil Text;
+	font-family: 'Big Shoulders Stencil Text', cursive;
 	font-size: 25px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -26,7 +26,7 @@ body {
 }
 
 .modal-title {
-    font-family: Big Shoulders Stencil Text;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 40px;
     color: #fafafa;
     margin-top: 0px;
@@ -55,7 +55,7 @@ body {
 }
 
 .weneedyou-font {
-    font-family: Big Shoulders Stencil Text, sans-serif;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 1.6rem;
     letter-spacing: .05rem;
     color: #ecfff8;
@@ -149,7 +149,7 @@ body {
 .btn--red {
     color: #01161e;
     background-color: #ecfff8;
-    border-color: #ecfff8;
+    border-color: #ecfff9;
 }
 
 .btn-modal {
@@ -163,13 +163,13 @@ body {
 .btn--red2 {
     color: #01161e;
     background-color: #828A95;
-    border-color: #828A95;
+    border-color: #828A96;
 }
 
 
 /* -------------------------------------------------------------------Colours used*/
 
-/* --------Rufous Red = #A72608 (changed to #E60023 as it is easier to see)-- */
+/* --------Rufous Red = #A72608 -- (changed to #E60023 as it is easier to see) -- */
 /* -----Xiketic Brown = #18020C -- */
 /* ------Roman Silver = #828A95 -- */
 /* --------Mint Cream = #ECFFF8 -- */
@@ -369,7 +369,7 @@ body {
 
 .jumbotron-header {
     color: #ecfff8;
-	font-family: Big Shoulders Stencil Text;
+	font-family: 'Big Shoulders Stencil Text', cursive;
     font-weight: bold;
 	font-size: 60px;
 	letter-spacing: 8px;
@@ -386,17 +386,17 @@ body {
 
 .countdown_text {
     text-align: center;
-    font-family: Big Shoulders Stencil Text;
+    font-family: 'Big Shoulders Stencil Text', cursive;
     font-size: 40px;
     color: #ecfff8;
 }
 
-/* -------------------------------------------------------------Countdown Timer */
+/* ---------------------------------------------------------------Countdown Timer */
 
 #countdown_timer {
 	position: relative;
 	text-align: center;
-	font-family: JetBrains Mono;
+	font-family: 'JetBrains Mono', monospace;
 	border-radius: 5px;
 	font-size: 30px;
 	color: #ecfff8;
@@ -408,48 +408,48 @@ body {
 }
 
 
-/* ---------------------------------------------------------------------Fade-In */
+/* -----------------------------------------------------------------------Fade-In */
 
 .fade-in-2sec {
-animation: fadeIn ease 2s;
--webkit-animation: fadeIn ease 2s;
--moz-animation: fadeIn ease 2s;
--o-animation: fadeIn ease 2s;
--ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
 }
 
 .fade-in-4sec {
-animation: fadeIn ease 4s;
--webkit-animation: fadeIn ease 4s;
--moz-animation: fadeIn ease 4s;
--o-animation: fadeIn ease 4s;
--ms-animation: fadeIn ease 4s;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
 }
 
 
 @keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @-moz-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @-webkit-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @-o-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @-ms-keyframes fadeIn {
-0% {opacity:0;}
-100% {opacity:1;}
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
 
 /* -----------------------------------------------------------------/Overlays.css */
@@ -621,6 +621,7 @@ footer {
     #photo img{
         margin-left: 0px;
     }
+
     .bottom-left {
         position: absolute;
         bottom: 23px;
@@ -632,6 +633,7 @@ footer {
         top: 28px;
         right: 14px;
     }
+
     .callout-container-gallery {
         margin-top: 50px;
     }
@@ -645,7 +647,7 @@ footer {
     .btn--red2:focus,
     .btn--red2:active:focus {
         background-color: #E60023;
-        border-color: #E60023;
+        border-color: #E60024;
         color: #ecfff8;
     }
 
@@ -654,7 +656,7 @@ footer {
     .btn--red:focus,
     .btn--red:active:focus {
         background-color: #E60023;
-        border-color: #E60023;
+        border-color: #E60024;
         color: #ecfff8;
     }
 
@@ -789,6 +791,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+
     .weneedyou-body {
         font-size: 0.9rem;
     }
@@ -801,7 +804,7 @@ footer {
     #countdown_timer {
 		position: absolute;
 		text-align: center;
-		font-family: JetBrains Mono;
+		font-family: 'JetBrains Mono', monospace;
 		border-radius: 5px;
 		font-size: 40px;
 		color: #ecfff8;
@@ -819,9 +822,11 @@ footer {
     .line-divider {
 		display: none;
     }
+
     .question {
 		display: none;
     }
+
     #photo{
         column-count:2;
         column-gap: 0px;
@@ -830,6 +835,7 @@ footer {
     #photo img{
         margin-left: 0px;
     }
+
     .bottom-left {
         position: absolute;
         bottom: 23px;
@@ -841,9 +847,11 @@ footer {
         top: 28px;
         right: 14px;
     }
+
     .callout-container-gallery {
         margin-top: 50px;
     }
+
     .weneedyou-body {
         font-size: 0.8rem;
     }
@@ -900,23 +908,29 @@ footer {
     .jumbotron {
 		margin-top: 110px;
 		margin-bottom: 110px;
-	}
+    }
+    
 	.jumbotron-header {
 		font-size: 50px;
 		margin-bottom: 20px;
-	}
+    }
+    
 	#countdown_timer {
 		margin-top: 0px;
-	}
+    }
+    
 	.list-inline-item:not(:last-child) {
 		margin-right: .3rem;
     }
+
     .countdown_text {  
 		font-size: 30px;
     }
+
     #photo{
         column-count:1;
     }
+
     .bottom-left {
         position: absolute;
         bottom: 23px;
@@ -928,6 +942,7 @@ footer {
         top: 28px;
         right: 14px;
     }
+
     .callout-container-gallery {
         margin-top: 50px;
     }	
@@ -938,6 +953,7 @@ footer {
     .modal-title {
         font-size: 30px;
     }
+
     .modal-shuttle {
         font-size: 1.2rem;
         margin-left: 0.5rem;
@@ -951,17 +967,21 @@ footer {
     .jumbotron {
 		margin-top: 110px;
 		margin-bottom: 110px;
-	}
+    }
+    
 	.jumbotron-header {
 		font-size: 45px;
 		margin-bottom: 20px;
-	}
+    }
+    
 	#countdown_timer {
 		margin-top: 0px;
-	}
+    }
+    
 	.list-inline-item:not(:last-child) {
 		margin-right: .3rem;
     }
+
     .btn-modal {
         font-size: 30px;
         border-radius: 10px;

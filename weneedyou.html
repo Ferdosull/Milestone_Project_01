@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+
+    <!-- Bootstrap, Font Awesome Icons, Jquery and Google Fonts links and scripts -->
+
     <meta charset="UTF-8">
     <title>Red Zone | Mission 2 Mars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,146 +25,163 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Bootstrap, Font Awesome Icons, Jquery and Google Fonts links and scripts -->
+
 </head>
 
 <body>
-    <!-- Start Nav Bar-->
-    <div class="container-fluid navalert-container">
-        <nav class="navbar navbar-dark navbar-expand-md">
-            <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
-            <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
-                <span class="sr-only">Space-Shuttle</span>
-            </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="active nav-item mr-2"><a class="nav-link" href="weneedyou.html">We Need You</a></li>
-                    <!--<li class="active nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            We Need You
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="weneedyou.html#am">Advanced Medical</a>
-                            <a class="dropdown-item" href="weneedyou.html#it">Information Tech.</a>
-                            <a class="dropdown-item" href="weneedyou.html#as">Agriculture Science</a>
-                            <a class="dropdown-item" href="weneedyou.html#es">Engineering Science</a>
-                        </div>
-                    </li>-->
-                    <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" data-toggle="modal"
-                            data-target="#signupmodal">Join Our Team!</a></li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i class="question">Do you have what it takes to lead the next
-                        generation?</i></p>
-                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Join Our Team!</a>
-                <!--join our team header button linked to pop-up modal-->
-            </div>
-        </nav>
-    </div>
+    <header>
 
-    <!-- End Nav Bar-->
+        <!-- Start Nav Bar-->
+
+        <div class="container-fluid navalert-container">
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
+                <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
+                    <span class="sr-only">Space-Shuttle</span>
+                </a>
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="weneedyou.html">We Need You</a></li>
+                        <li class="nav-item mr-2 d-block d-md-none"><a class="nav-link" data-toggle="modal"
+                                data-target="#signupmodal">Join Our Team!</a></li>
+                    </ul>
+                </div>
+                <div class="d-none d-md-block">
+                    <p class="navbar-text my-auto mr-2"><i class="question">Do you have what it takes to lead the next
+                            generation?</i></p>
+                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal">Join Our Team!</a>
+                    <!--join our team header button linked to pop-up modal-->
+                </div>
+            </nav>
+        </div>
+
+        <!-- End Nav Bar-->
+
+    </header>
 
     <!-- Start We Need You Section-->
+
     <div class="container-fluid callout-container-weneedyou1">
-            <div class="row">
-                <div class="left-column initial-space" id="am">
-                    <div class="pic-container">
-                        <a href="assets/images/mars13.jpg" target="_blank">
+        <div class="row">
+            <div class="left-column initial-space">
+                <div class="pic-container">
+                    <a href="assets/images/mars13.jpg" target="_blank">
                         <img src="assets/images/mars13.jpg" alt="Dr. Regayo V. Kertrats, RSEC-Medical"></a>
-                        <div class="pic-overlay">Dr. Regayo V. Kertrats, RSEC-Medical</div>
-                    </div>        
+                    <div class="pic-overlay">Dr. Regayo V. Kertrats, RSEC-Medical</div>
                 </div>
-                <div class="middle-column initial-space">
-                    <p class="opaque weneedyou-font">Advanced Medical</p>
-                    <p class="weneedyou-body opaque">Future astronauts will face many health challenges when travelling in space and working on Mars.
-                        The three main health concerns we are faced with are: The impacts of microgravity, radiation and isolation.
-                        RSEC’s Medical Space Team comprises of Doctors, Biomedical Engineers, Exercise Physiologists, Psychologists and Education Specialists.
-                        This team will play a vital role in ensuring the health and well-being of astronauts during all stages of the Layer 1 mission.
-                    </p>
-                    <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Medical Space Team, click on the Join Our Team! Button</p>
-                </div>
-                <div class="right-column initial-space">
-                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-1">Join Our Team!</a>
-                </div>  
             </div>
+            <div class="middle-column initial-space">
+                <p class="opaque weneedyou-font">Advanced Medical</p>
+                <p class="weneedyou-body opaque">Future astronauts will face many health challenges when travelling in
+                    space and working on Mars.
+                    The three main health concerns we are faced with are: The impacts of microgravity, radiation and
+                    isolation.
+                    RSEC’s Medical Space Team comprises of Doctors, Biomedical Engineers, Exercise Physiologists,
+                    Psychologists and Education Specialists.
+                    This team will play a vital role in ensuring the health and well-being of astronauts during all
+                    stages of the Layer 1 mission.
+                </p>
+                <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Medical Space Team, click on
+                    the Join Our Team! Button</p>
+            </div>
+            <div class="right-column initial-space">
+                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-1">Join Our Team!</a>
+            </div>
+        </div>
     </div>
     <div class="container-fluid callout-container-weneedyou2">
-            <div class="row">
-                <div class="left-column"  id="it">
-                    <div class="pic-container">
-                        <a href="assets/images/mars14.jpg" target="_blank">
+        <div class="row">
+            <div class="left-column">
+                <div class="pic-container">
+                    <a href="assets/images/mars14.jpg" target="_blank">
                         <img src="assets/images/mars14.jpg" alt="RSEC Server Room, Denver, Colorado"></a>
-                        <div class="pic-overlay">RSEC Server Room, Denver, Colorado</div>
-                    </div>
+                    <div class="pic-overlay">RSEC Server Room, Denver, Colorado</div>
                 </div>
-                <div class="middle-column">
-                    <p class="opaque weneedyou-font">Information Tech.</p>
-                    <p class="weneedyou-body opaque">RSEC's mission to Mars will require advances in many areas of science and technology.
-                        Paramount among these technologies is Information Technology. RSEC's Colorado Research Center is a world leader 
-                        in the field of Information Tech. due to its historical contributions to the evolution of software. 
-                        RSEC's mission focus areas include artificial intelligence, high-end computing, communications tech., and harmonised human/machine integration.
-                    </p>
-                    <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Agri-Science Space Team, click on the Join Our Team! Button</p>
-                </div>
-                <div class="right-column">
-                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-2">Join Our Team!</a>
-                </div>  
             </div>
+            <div class="middle-column">
+                <p class="opaque weneedyou-font">Information Tech.</p>
+                <p class="weneedyou-body opaque">RSEC's mission to Mars will require advances in many areas of science
+                    and technology.
+                    Paramount among these technologies is Information Technology. RSEC's Colorado Research Center is a
+                    world leader
+                    in the field of Information Tech. due to its historical contributions to the evolution of software.
+                    RSEC's mission focus areas include artificial intelligence, high-end computing, communications
+                    tech., and harmonised human/machine integration.
+                </p>
+                <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Agri-Science Space Team,
+                    click on the Join Our Team! Button</p>
+            </div>
+            <div class="right-column">
+                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-2">Join Our Team!</a>
+            </div>
+        </div>
     </div>
     <div class="container-fluid callout-container-weneedyou2">
-            <div class="row">
-                <div class="left-column"  id="as">
-                    <div class="pic-container">
-                        <a href="assets/images/mars15.jpg" target="_blank">
+        <div class="row">
+            <div class="left-column">
+                <div class="pic-container">
+                    <a href="assets/images/mars15.jpg" target="_blank">
                         <img src="assets/images/mars15.jpg" alt="Plant Life Cultivation with Martian Soil"></a>
-                        <div class="pic-overlay">Plant Life Cultivation with Martian Soil</div>
-                    </div>
+                    <div class="pic-overlay">Plant Life Cultivation with Martian Soil</div>
                 </div>
-                <div class="middle-column">
-                    <p class="opaque weneedyou-font">Agriculture Science</p>
-                    <p class="weneedyou-body opaque">Horticulture using Mars's soil and atmosphere will require the removal of toxic elements 
-                        before the addion of the correct nutrients. To reduce the amount of re-supply missions our team needs to work 
-                        towards a complete understanding of the martian lanscape, and how we can utilise what is available with minimal scientific augmentation.
-                        This will involve simulating the Red Planet's atmosphere here on Earth using bespoke grow houses to qualify successful germination.
-                    </p>
-                    <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Agri-Science Space Team, click on the Join Our Team! Button</p>
-                </div>
-                <div class="right-column">
-                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-3">Join Our Team!</a>
-                </div>  
             </div>
+            <div class="middle-column">
+                <p class="opaque weneedyou-font">Agriculture Science</p>
+                <p class="weneedyou-body opaque">Horticulture using Mars's soil and atmosphere will require the removal
+                    of toxic elements
+                    before the addion of the correct nutrients. To reduce the amount of re-supply missions our team
+                    needs to work
+                    towards a complete understanding of the martian lanscape, and how we can utilise what is available
+                    with minimal scientific augmentation.
+                    This will involve simulating the Red Planet's atmosphere here on Earth using bespoke grow houses to
+                    qualify successful germination.
+                </p>
+                <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Agri-Science Space Team,
+                    click on the Join Our Team! Button</p>
+            </div>
+            <div class="right-column">
+                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-3">Join Our Team!</a>
+            </div>
+        </div>
     </div>
     <div class="container-fluid callout-container-weneedyou2">
-            <div class="row">
-                <div class="left-column final-space"  id="es">
-                    <div class="pic-container">
-                        <a href="assets/images/mars16.jpg" target="_blank">
+        <div class="row">
+            <div class="left-column final-space">
+                <div class="pic-container">
+                    <a href="assets/images/mars16.jpg" target="_blank">
                         <img src="assets/images/mars16.jpg" alt="Dr. Ecap S. Asan onboard the ISS"></a>
-                        <div class="pic-overlay">Dr. Ecap S. Asan onboard the ISS</div>
-                    </div>
+                    <div class="pic-overlay">Dr. Ecap S. Asan onboard the ISS</div>
                 </div>
-                <div class="middle-column final-space">
-                    <p class="opaque weneedyou-font">Engineering Science</p>
-                    <p class="weneedyou-body opaque">Successful space missions have one indispensable ingredient: high-level engineering know how.
-                        The RSEC Director of Future Tech. & Engineering Science (Dr. Ecap S. Asan) is responsible for maintaining this vital technical 
-                        expertise and determining its focus on all RSEC R and D projects. RSEC’s Engineering Science Team comprises of Mechanical Design Engineers, 
-                        Electrical and Electronic Engineers, Expert Fabrication Engineers and Material Behavioural Scientists.
-                    </p>
-                    <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Engineering Science Space Team, click on the Join Our Team! Button</p>
-                </div>
-                <div class="right-column final-space">
-                    <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-4">Join Our Team!</a>
-                </div>  
             </div>
+            <div class="middle-column final-space">
+                <p class="opaque weneedyou-font">Engineering Science</p>
+                <p class="weneedyou-body opaque">Successful space missions have one indispensable ingredient: high-level
+                    engineering know how.
+                    The RSEC Director of Future Tech. & Engineering Science (Dr. Ecap S. Asan) is responsible for
+                    maintaining this vital technical
+                    expertise and determining its focus on all RSEC R and D projects. RSEC’s Engineering Science Team
+                    comprises of Mechanical Design Engineers,
+                    Electrical and Electronic Engineers, Expert Fabrication Engineers and Material Behavioural
+                    Scientists.
+                </p>
+                <p class="weneedyou-body opaque">If you wish to be considered for the RSEC Engineering Science Space
+                    Team, click on the Join Our Team! Button</p>
+            </div>
+            <div class="right-column final-space">
+                <a class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupmodal-4">Join Our Team!</a>
+            </div>
+        </div>
     </div>
-    
+
     <!-- End We Need You Section-->
 
     <!--Start Footer-->
@@ -171,12 +191,13 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">RSEC Layer 1 Basic Mission Objectives</h5>
                 <p class="inline-block">in 2029, 20 individuals will touch down on the surface of Mars with a view to
-                    establishing living quaters, growing crops, processing & sustaining Oxygen, regulating heat, and harvesting water.
+                    establishing living quaters, growing crops, processing & sustaining Oxygen, regulating heat, and
+                    harvesting water.
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Meeting Our Employment Pre-requisutes</h5>
-                <p class="inline-block">If you do not meet our employment pre-requisites dont worry. 
+                <p class="inline-block">If you do not meet our employment pre-requisites dont worry.
                     There is still time to upskill and be part of our team. Download a Scholarship application
                     form here.
                     <a href="assets/application/application-form.pdf" target="_blank" class="application-pdf">
@@ -225,9 +246,9 @@
                         </a>
                     </li>
                 </ul>
-                <p>        
+                <p>
                     <i class="fas fa-mobile-alt" aria-hidden="true"></i>
-                    <a class="link-font" href="tel:+555(0)55 554433221">+555(0)55-554433221</a>
+                    <a class="link-font" href="tel:+555(0)55554433221">+555(0)55-554433221</a>
                 </p>
                 <p>
                     <i class="far fa-envelope" aria-hidden="true"></i>
@@ -256,17 +277,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number"
+                            <input type="tel" class="form-control" id="contact-number"
                                 placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
@@ -301,7 +324,7 @@
 
     <!--Nav Bar Modal End-->
 
-    <!--We Need You Specific Modal Start-->
+    <!--Start Advanced Medical Specific Modal -->
 
     <div class="modal" tabindex="-1" role="dialog" id="signupmodal-1">
         <div class="modal-dialog" role="document">
@@ -318,17 +341,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name-1" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name-1" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number-1"
+                            <input type="tel" class="form-control" id="contact-number-1"
                                 placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
@@ -361,6 +386,10 @@
         </div>
     </div>
 
+    <!--End Advanced Medical Specific Modal -->
+
+    <!--Start Information Tech. Specific Modal -->
+
     <div class="modal" tabindex="-1" role="dialog" id="signupmodal-2">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -376,17 +405,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name-2" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name-2" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number-2"
+                            <input type="tel" class="form-control" id="contact-number-2"
                                 placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
@@ -419,6 +450,10 @@
         </div>
     </div>
 
+    <!--End Information Tech. Specific Modal -->
+
+    <!--Start Agriculture Science Specific Modal -->
+
     <div class="modal" tabindex="-1" role="dialog" id="signupmodal-3">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -434,17 +469,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name-3" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name-3" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number-3"
+                            <input type="tel" class="form-control" id="contact-number-3"
                                 placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
@@ -477,6 +514,10 @@
         </div>
     </div>
 
+    <!--End Agriculture Science Specific Modal -->
+
+    <!--Start Engineering Science Specific Modal -->
+
     <div class="modal" tabindex="-1" role="dialog" id="signupmodal-4">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -492,17 +533,19 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline. 
-                            Where the candidate holds a Bachelor's degree at honors or ordinary level, 
-                            previous relevant work experience may be taken into consideration at RSEC's discretion</p>
+                            <p>The Successful Candidate must hold an MSc. Degree in a relevant discipline.
+                                Where the candidate holds a Bachelor's degree at honors or ordinary level,
+                                previous relevant work experience may be taken into consideration at RSEC's discretion
+                            </p>
                         </div>
                         <div class="form-group">
                             <label for="first-name">Required fields are marked with an (*)</label>
-                            <input type="text" class="form-control" id="first-name-4" placeholder="*Enter Full Name" required>
+                            <input type="text" class="form-control" id="first-name-4" placeholder="*Enter Full Name"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="numbers" class="form-control" id="contact-number-4"
+                            <input type="tel" class="form-control" id="contact-number-4"
                                 placeholder="Enter Contact No.">
                         </div>
                         <div class="input-group mb-3">
@@ -535,7 +578,8 @@
         </div>
     </div>
 
-    <!--We Need You Specific Modal End-->
+    <!--End Engineering Science Specific Modal -->
 
 </body>
+
 </html>

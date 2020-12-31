@@ -31,6 +31,9 @@ mailto links https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-
 
 Changed the red for the buttons and main page text as it seems a bit too dull
 
+HTML checker = http://validator.w3.org/
+
+CSS Checker = https://jigsaw.w3.org/css-validator/
 
 
 
