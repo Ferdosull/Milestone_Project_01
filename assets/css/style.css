@@ -152,15 +152,6 @@ body {
     border-color: #ecfff8;
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #E60023;
-    border-color: #E60023;
-    color: #ecfff8;
-}
-
 .btn-modal {
     margin-top: 20px;
     font-weight: bold;
@@ -175,14 +166,6 @@ body {
     border-color: #828A95;
 }
 
-.btn--red2:hover,
-.btn--red2:active,
-.btn--red2:focus,
-.btn--red2:active:focus {
-    background-color: #E60023;
-    border-color: #E60023;
-    color: #ecfff8;
-}
 
 /* -------------------------------------------------------------------Colours used*/
 
@@ -469,7 +452,7 @@ animation: fadeIn ease 4s;
 100% {opacity:1;}
 }
 
-/* ------------------------------------------------------------Hover/Overlays.css */
+/* -----------------------------------------------------------------/Overlays.css */
 
 .pic-container {
     position: relative;   
@@ -489,14 +472,6 @@ animation: fadeIn ease 4s;
     font-size: 14px;
     padding: 10px;
     text-align: center;
-}
-
-.pic-container:hover .pic-overlay {
-    opacity: 1;
-}
-
-.pic-container:focus .pic-overlay {
-    opacity: 1;
 }
 
 .pic-container:active .pic-overlay {
@@ -601,11 +576,7 @@ footer {
 }
 
 .list-inline-item:not(:last-child) {
-		margin-right: .65rem;
-}
-
-.social-links li a i:hover {
-    background: #535353;
+	margin-right: .65rem;
 }
 
 .fa-mobile-alt {
@@ -631,10 +602,6 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.application-pdf i:hover {
-    color: #dc143c;
-}
-
 /* ------------------------------------------------------------Media Query 1400px */
 
 @media(max-width: 1400px) {
@@ -643,7 +610,7 @@ footer {
     }
 }
 
-/* ------------------------------------------------------------Media Query 1370px */
+/* ------------------------------------------------Media Query (Max-Width) 1370px */
 
 @media(max-width: 1370px) {
     #photo{
@@ -667,6 +634,49 @@ footer {
     }
     .callout-container-gallery {
         margin-top: 50px;
+    }
+}
+
+/* ---------------------------------Media Query (IPAD Landscape Min-Width) 1030px */
+
+@media(min-width: 1030px) {
+    .btn--red2:hover,
+    .btn--red2:active,
+    .btn--red2:focus,
+    .btn--red2:active:focus {
+        background-color: #E60023;
+        border-color: #E60023;
+        color: #ecfff8;
+    }
+
+    .btn--red:hover,
+    .btn--red:active,
+    .btn--red:focus,
+    .btn--red:active:focus {
+        background-color: #E60023;
+        border-color: #E60023;
+        color: #ecfff8;
+    }
+
+    .pic-container:hover .pic-overlay {
+        opacity: 1;
+    }
+
+    .pic-container:focus .pic-overlay {
+        opacity: 1;
+    }
+
+    .pic-container:active .pic-overlay {
+        opacity: 1;
+    }
+
+    .social-links li a i:hover {
+        background: lightgrey;
+        color: #01161E;
+    }
+
+    .application-pdf i:hover {
+        color: #dc143c;
     }
 }
 
