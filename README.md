@@ -221,7 +221,9 @@ For additional info regarding the different sectors that the RSEC Company wish t
 
 [https://www.nasa.gov/centers/ames/research/humaninspace/humansinspace- informationtechnology.html ](https://www.nasa.gov/centers/ames/research/humaninspace/humansinspace-informationtechnology.html)
 
-[https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_for_space ](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_for_space)[https://www.esa.int/About_Us/EAC/Space_Medicine ](https://www.esa.int/About_Us/EAC/Space_Medicine)
+[https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_for_space ](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Engineering_for_space)
+
+[https://www.esa.int/About_Us/EAC/Space_Medicine ](https://www.esa.int/About_Us/EAC/Space_Medicine)
 
 **Testing** 
 
