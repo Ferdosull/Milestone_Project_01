@@ -246,22 +246,24 @@ body {
     position: relative;
 }
 
-#photo {
+.photo {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 5px;
 }
 
-#photo img{
+.photo img {
     width: 100%;
     padding: 10px 10px 10px 10px;
-    margin: 10px 10px 5px 15px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.2);
+
     border-radius: 5px;
 }
 
+.photo text {
+    text-shadow: 0.05rem 0.05rem black;
+}
 
 .left-column {
     width: 30%;
@@ -325,40 +327,6 @@ body {
 
 .ceo-box-shadow {
     box-shadow: 6px 6px rgba(0, 0, 0, 0.2); 
-}
-
-
-/* Container holding the image and the text */
-.container-light {
-    position: relative;
-    text-align: center;
-    color: #ECFFF8;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    letter-spacing: .03rem;
-}
-
-.container-dark {
-    position: relative;
-    text-align: center;
-    color: #01161E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: .03rem;
-}
-
-/* Bottom left and Top Right text Photo Gallery*/
-.bottom-left {
-    position: absolute;
-    bottom: 23px;
-    left: 30px;
-}
-
-.top-right {
-    position: absolute;
-    top: 28px;
-    right: 0px;
 }
 
 /* -----------------------------------------------------------------------Heading */
@@ -458,6 +426,10 @@ body {
     position: relative;   
 }
 
+.gallery-pic-container {
+    position: relative;   
+}
+
 .pic-overlay {
     position: absolute; 
     bottom: 20px;
@@ -474,9 +446,23 @@ body {
     text-align: center;
 }
 
-.pic-container:active .pic-overlay {
-    opacity: 1;
+.gallery-pic-overlay {
+    position: absolute; 
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fafafa; 
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    transition: .5s ease;
+    opacity:0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
 }
+
+
 
 /* ---------------------------------------------------------------------Modal.css */
 
@@ -613,25 +599,13 @@ footer {
 /* ------------------------------------------------Media Query (Max-Width) 1370px */
 
 @media(max-width: 1370px) {
-    #photo{
+    .photo {
         column-count:3;
         column-gap: 0px;
     }
 
-    #photo img{
+    .photo img {
         margin-left: 0px;
-    }
-
-    .bottom-left {
-        position: absolute;
-        bottom: 23px;
-        left: 14px;
-    }
-
-    .top-right {
-        position: absolute;
-        top: 28px;
-        right: 14px;
     }
 
     .callout-container-gallery {
@@ -639,7 +613,8 @@ footer {
     }
 }
 
-/* ---------------------------------Media Query (IPAD Landscape Min-Width) 1030px */
+/* ---------------------Media Query (Larger than IPAD Landscape Min-Width) 1030px */
+/* Hovers and overlays work as normal until 1030px resolution is exceeded */
 
 @media(min-width: 1030px) {
     .btn--red2:hover,
@@ -664,11 +639,23 @@ footer {
         opacity: 1;
     }
 
+    .pic-container:active .pic-overlay {
+        opacity: 1;
+    }
+
     .pic-container:focus .pic-overlay {
         opacity: 1;
     }
 
-    .pic-container:active .pic-overlay {
+    .gallery-pic-container:hover .gallery-pic-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container:active .gallery-pic-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container:focus .gallery-pic-overlay {
         opacity: 1;
     }
 
@@ -679,6 +666,19 @@ footer {
 
     .application-pdf i:hover {
         color: #dc143c;
+    }
+}
+
+/* ---------------------Media Query (Smaller than IPAD Landscape Max-Width) 1030px */
+/* Gallery & We Need You Section Pics have constant text with opaque background */
+
+@media(max-width: 1030px) {
+    .pic-container .pic-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container .gallery-pic-overlay {
+        opacity: 1;
     }
 }
 
@@ -747,8 +747,7 @@ footer {
         width: 70%;
         margin-left: 15%;
         margin-right: 15%;
-        padding: 30px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .about-left-column {
@@ -827,25 +826,13 @@ footer {
 		display: none;
     }
 
-    #photo{
+    .photo{
         column-count:2;
         column-gap: 0px;
     }
 
-    #photo img{
+    .photo img{
         margin-left: 0px;
-    }
-
-    .bottom-left {
-        position: absolute;
-        bottom: 23px;
-        left: 14px;
-    }
-
-    .top-right {
-        position: absolute;
-        top: 28px;
-        right: 14px;
     }
 
     .callout-container-gallery {
@@ -897,8 +884,14 @@ footer {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        padding: 40px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .gallery-pic-overlay {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 12px;
     }
 }
 
@@ -927,20 +920,8 @@ footer {
 		font-size: 30px;
     }
 
-    #photo{
+    .photo{
         column-count:1;
-    }
-
-    .bottom-left {
-        position: absolute;
-        bottom: 23px;
-        left: 14px;
-    }
-
-    .top-right {
-        position: absolute;
-        top: 28px;
-        right: 14px;
     }
 
     .callout-container-gallery {

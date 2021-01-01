@@ -31,9 +31,19 @@ mailto links https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-
 
 Changed the red for the buttons and main page text as it seems a bit too dull
 
+HTML and CSS checker as of the 31-12-2020
+
 HTML checker = http://validator.w3.org/
+HTML passed
+index = https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html
+about = https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fabout.html
+gallery = https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fgallery.html
+we need you = https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fweneedyou.html
 
 CSS Checker = https://jigsaw.w3.org/css-validator/
+CSS passed https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+33 errors remain for unrecognised rules and unknown vender extensions.
+
 
 
 
