@@ -345,6 +345,16 @@ body {
     margin-top: 50px;
 }
 
+.history-future {
+    color: #ecfff8;
+	font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
 .red-text {
     color: #E60023;
 	background-color: rgba(0,0,0,0.2);
@@ -902,6 +912,12 @@ footer {
 		margin-top: 110px;
 		margin-bottom: 110px;
     }
+
+    .history-future {
+        font-size: 25px;
+        margin-top: 20px;
+		margin-bottom: 10px;
+    }
     
 	.jumbotron-header {
 		font-size: 50px;
@@ -953,6 +969,11 @@ footer {
 	.jumbotron-header {
 		font-size: 45px;
 		margin-bottom: 20px;
+    }
+
+    .jumbotron-header {
+		font-size: 30px;
+		margin-bottom: 5px;
     }
     
 	#countdown_timer {
