@@ -33,7 +33,7 @@
 ## Responsive Design <a name="responsive_design"></a>
 
 As seen in the picture above, you can view the projects 4 pages responsiveness to different device sizes at “ami.responsivedesigns.is” 
-by clicking:
+by clicking the following:
 
 [index.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
 
