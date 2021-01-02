@@ -36,8 +36,11 @@ As seen in the picture above, you can view the projects 4 pages responsiveness t
 by clicking:
 
 [index.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
+
 [about.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fabout.html)
+
 [gallery.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fgallery.html)
+
 [weneedyou.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fweneedyou.html)
 
 View the live project here:[ RED ZONE M2M ](https://ferdosull.github.io/Milestone_Project_01/index.html)
