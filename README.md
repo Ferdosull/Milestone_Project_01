@@ -124,6 +124,8 @@ The Nav-Bar and Footer here are identical to the main page also.
 
 ![](assets/readme_images/README.012.png)
 
+https://imagecolorpicker.com/en/
+
 ## Utilising the 5 Planes of UX Design <a name="ux_design"></a>
 
 **The Strategy Plane** <a name="strategy_plane"></a>
@@ -211,11 +213,6 @@ The countdown timer was further styled to include a custom font and font size pl
 
 ![](assets/readme_images/README.015.png)
 
-The code for the text displayed on a picture with overlay was found in the following location: [https://www.w3schools.com/howto/howto_css_image_overlay.asp ](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
-
-The telephone link in the footer where it automatically calls on a mobile device when clicked were found at:[ https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number ](https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number)
-
-The email link in footer where it automatically opens an email from your default email client and populates the “To” text box with the[ info@rseclayer1.com,](mailto:info@rseclayer1.com) was taken and utilised from the following website:[ https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-create-a- link-that-if-clicked-on-it-opens-the-clients-email-application/ ](https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-create-a-link-that-if-clicked-on-it-opens-the-clients-email-application/)
 
 **Media** <a name="media"></a>
 
@@ -223,35 +220,35 @@ The photos used to create the gallery were taken from the following location: [h
 
 Please see list of credits below for each photo: 
 
-•bill-jelen-xb58P14hThc-unsplash – Photo by[ Bill Jelen ](https://unsplash.com/@billjelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/space-shuttle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* bill-jelen-xb58P14hThc-unsplash – Photo by[ Bill Jelen ](https://unsplash.com/@billjelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/space-shuttle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•brian-mcgowan-5\_Z3YVosrCw-unsplash – Photo by[ Brian McGowan ](https://unsplash.com/@sushioutlaw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* brian-mcgowan-5\_Z3YVosrCw-unsplash – Photo by[ Brian McGowan ](https://unsplash.com/@sushioutlaw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•chris-boyer-S5c8MV04URs-unsplash – Photo by[ Chris Boyer ](https://unsplash.com/@csgboyer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* chris-boyer-S5c8MV04URs-unsplash – Photo by[ Chris Boyer ](https://unsplash.com/@csgboyer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•david-von-diemar-OIK7ce6mOW0-unsplash – Photo by[ David von Diemar ](https://unsplash.com/@davidvondiemar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* david-von-diemar-OIK7ce6mOW0-unsplash – Photo by[ David von Diemar ](https://unsplash.com/@davidvondiemar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•joshua-hoehne-WeSWsnVQYqU-unsplash – Photo by[ Joshua Hoehne ](https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* joshua-hoehne-WeSWsnVQYqU-unsplash – Photo by[ Joshua Hoehne ](https://unsplash.com/@mrthetrain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•juli-kosolapova-pZ-XFIrJMtE-unsplash – Photo by[ JuliKosolapova ](https://unsplash.com/@yuli_superson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* juli-kosolapova-pZ-XFIrJMtE-unsplash – Photo by[ JuliKosolapova ](https://unsplash.com/@yuli_superson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•laurel-and-michael-evans-DsC24AEuYjc-unsplash – Photo by[ Laurel and Michael Evans ](https://unsplash.com/@laurelmike?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* laurel-and-michael-evans-DsC24AEuYjc-unsplash – Photo by[ Laurel and Michael Evans ](https://unsplash.com/@laurelmike?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•margaux-olverd-5MSDShQyYSg-unsplash – Photo by[ Margaux Olverd ](https://unsplash.com/@margaux_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* margaux-olverd-5MSDShQyYSg-unsplash – Photo by[ Margaux Olverd ](https://unsplash.com/@margaux_unsplash?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•nicolas-lobos-NR\_tXTuyTak-unsplash – Photo by[ Nicolas Lobos ](https://unsplash.com/@lobosnico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* nicolas-lobos-NR\_tXTuyTak-unsplash – Photo by[ Nicolas Lobos ](https://unsplash.com/@lobosnico?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/mars?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•terence-burke-WV7ZMt3RjsQ-unsplash – Photo by[ Terence Burke ](https://unsplash.com/@ancientwanderer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/space-shuttle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* terence-burke-WV7ZMt3RjsQ-unsplash – Photo by[ Terence Burke ](https://unsplash.com/@ancientwanderer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/space-shuttle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•steffen-wienberg-ml-pxK0Ovmw-unsplash – Photo by[ steffenWienberg ](https://unsplash.com/@wnbrg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/older-male-portrait-colour-suit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* steffen-wienberg-ml-pxK0Ovmw-unsplash – Photo by[ steffenWienberg ](https://unsplash.com/@wnbrg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/older-male-portrait-colour-suit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•imgix-klWUhr-wPJ8-unsplash – Photo by[ imgix ](https://unsplash.com/@imgix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/computers-information-technology-coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* imgix-klWUhr-wPJ8-unsplash – Photo by[ imgix ](https://unsplash.com/@imgix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/computers-information-technology-coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•science-in-hd-4pM4nhHyo9M-unsplash – Photo by[ Science in HD ](https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/advanced-medical-lab?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* science-in-hd-4pM4nhHyo9M-unsplash – Photo by[ Science in HD ](https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/advanced-medical-lab?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•roman-synkevych-fjj7lVpCxRE-unsplash – Photo by[ Roman Synkevych ](https://unsplash.com/@synkevych?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/agriculture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* roman-synkevych-fjj7lVpCxRE-unsplash – Photo by[ Roman Synkevych ](https://unsplash.com/@synkevych?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/agriculture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-•thisisengineering-raeng-Bt9HIKC0Nus-unsplash – Photo by[ ThisisEngineeringRAEng ](https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/engineering-space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* thisisengineering-raeng-Bt9HIKC0Nus-unsplash – Photo by[ ThisisEngineeringRAEng ](https://unsplash.com/@thisisengineering?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)on[ Unsplash ](https://unsplash.com/s/photos/engineering-space?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 I’d like to say thank you to the photographers who provided the content above via Unsplash. 
 

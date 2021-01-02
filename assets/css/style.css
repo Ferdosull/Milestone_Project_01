@@ -90,6 +90,10 @@ body {
     color: black;
 }
 
+.red-link-font {
+    color: #E60023;
+}
+
 /* ------------------------------------------------------------------------Navbar */
 
 .fa-space-shuttle {
@@ -345,7 +349,7 @@ body {
     margin-top: 50px;
 }
 
-.history-future {
+.history-future-prereq {
     color: #ecfff8;
 	font-family: 'Big Shoulders Stencil Text', cursive;
     font-weight: bold;
@@ -547,28 +551,32 @@ footer {
     color: #777777;
 }
 
+/* - The following Icon colours were derived by using a hex colour picker on the official brand media - */
+
+/* - The colour picker used was: https://imagecolorpicker.com/en/ - */
+
 .fa-facebook {
-    background: #4267B2;
+    background: #3b589c;
 }
 
 .fa-instagram {
-    background: #fbad50;
+    background: #ef0075;
 }
 
 .fa-twitter {
-    background: #1DA1F2;
+    background: #1da1f3;
 }
 
 .fa-youtube {
-    background: #FF0000;
+    background: #Fe0000;
 }
 
 .fa-linkedin {
-    background: #0072b1;
+    background: #0a66c2;
 }
 
 .fa-pinterest {
-    background: #E60023;
+    background: #E50019;
 }
 
 .list-inline-item:not(:last-child) {
@@ -913,7 +921,7 @@ footer {
 		margin-bottom: 110px;
     }
 
-    .history-future {
+    .history-future-prereq {
         font-size: 25px;
         margin-top: 20px;
 		margin-bottom: 10px;
