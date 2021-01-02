@@ -1,6 +1,6 @@
 # Milestone Project 01 
 
-## Red Zone | Mission to Mars
+### Red Zone | Mission to Mars
 
 ## Table of contents
 1. [Responsive Design](#responsive_design)
@@ -13,10 +13,23 @@
     6. [Join Our Team](#join_our_team)
     7. [Footer](#footer)
 3. [Utilising the 5 Planes of UX Design](#ux_design)
+    1. [The Strategy Plane](#strategy_plane)
+    2. [The Scope Plane](#scope_plane)
+    3. [The Structure Plane](#structure_plane)
+    4. [The Skeleton Plane](#skeleton_plane)
+    5. [The Surface Plane](#surface_plane)
+4. [Typography](#typography)
+5. [User Stories](#user_stories)
+    1. [External User's Goal](#external_user_goal)
+    2. [Site Owner's Goal](#site_owner_goal)
+    3. [First Time User Goals](#first_time_user_goals)
+    4. [Returning User Goals](#returning_user_goals)
+    5. [Frequent User Goals](#frequent_user_goals)
+6. [References and Credits Section](#references_and_credits)
 
 ![](assets/readme_images/README.001.png)
 
-**Responsive Design** <a name="responsive_design"></a>
+## Responsive Design <a name="responsive_design"></a>
 
 As seen in the picture above, you can view the projects main page responsiveness at “ami.responsivedesigns.is” by clicking here:[ RED ZONE M2M RESPONSIVENESS ](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
 
@@ -90,15 +103,15 @@ The Nav-Bar and Footer here are identical to the main page also.
 
 ## Utilising the 5 Planes of UX Design <a name="ux_design"></a>
 
-**The Strategy Plane** 
+**The Strategy Plane** <a name="strategy_plane"></a>
 
 The strategy plane, as mentioned previously, is concerned with trying to attract professionals on behalf of RSEC (Red Zone Space Exploration Co.) within the Aerospace industry to sign up for the first colony the live on Mars. I aim to achieve this by promoting the company in the about section, providing example skill sets case studies and having quotes from current employees who are preparing for the mission also. Previous mission pictures can be viewed in the gallery section also. 
 
-**TheScope Plane** 
+**The Scope Plane** <a name="scope_plane"></a>
 
 To Be Completed yet. 
 
-**TheStructure Plane** 
+**The Structure Plane** <a name="structure_plane"></a>
 
 The website will consist of 4 pages, each with heading and footer continuity throughout.  The 4 pages are: 
 
@@ -112,11 +125,11 @@ Links will change style on hover as is standard with the bootstrap navbar class.
 
 The links that lead to external content like the application form and social media pages will open on a new tab. The user will not lose the page that they were on before clicking the link. 
 
-**The Skeleton Plane** 
+**The Skeleton Plane** <a name="skeleton_plane"></a>
 
 To Be Completed yet. 
 
-**TheSurface Plane** 
+**The Surface Plane** <a name="surface_plane"></a>
 
 My inspiration for the overall look and feel of the project comes from various Sci-Fi outlets (films/games) but the main colour scheme is based around the colour red as in “Mars the Red Planet”. 
 
@@ -128,7 +141,7 @@ The Red I chose (#A72608) I felt was easy on the eye and not too bright or too d
 
 Hovering over links, or on the application form, causes the buttons or icons to change colour alerting the user to the presence of their mouse pointer. For the social media icons, I used a light grey colour when active. Once the mouse pointer hovers over the icon the background colour changes from the colour associated with the social media outlet, to light grey. 
 
-**Typography** 
+## Typography <a name="typography"></a>
 
 The fonts used for the milestone project are: “Poppins”, “Big Shoulders Stencil Text” and “Jet Brains Mono”. 
 
@@ -138,36 +151,36 @@ All three fonts were located and used from the website:[ https://fonts.google.co
 
 They appear futuristic and I feel that they fit in well with the space theme I am going for. I don’t think they would look out of place as a decal or a logo on the side of a space shuttle. Throughout the project I have made subtle changes to the font sizes and spacings as can be seen in the style.css sheet. 
 
-**User stories** 
+## User stories <a name="user_stories"></a>
 
-**External user’s goal:** 
+**External user’s goal:** <a name="external_user_goal"></a>
 
 The site's users are academic professionals and students between the ages of 18 and 30, who wish to be part of the first colony on Mars. 
 
-**Site owner's goal:** 
+**Site owner's goal:** <a name="site_owner_goal"></a>
 
 The Red Zone Space Exploration Company are interested in finding the right individuals who will be capable of providing and sustaining an environment on Mars to ensure survival of the human race. Not an easy task. 
 
-**First Time User Goals** 
+**First Time User Goals** <a name="first_time_user_goals"></a>
 
 - As a First Time User, I want to understand the missions objectives and see does my skillsets fit the Red Zone Space Exploration Co.’s pre-requisites. 
 - As a First Time User, I want to understand what the company is looking for and apply for a scholarship  
 - As a First Time User, I want to find out when exactly the launch date for this mission is and what missions the company have successfully completed previously. 
 
-**Returning User Goals** 
+**Returning User Goals** <a name="returning_user_goals"></a>
 
 - As a Returning User, I want to log in and see how my assessment is progressing. Have I been successful with my application. 
 - As a Returning User, I want to find contact info so that I can call or email the company directly. 
 
-**Frequent User Goals** 
+**Frequent User Goals** <a name="frequent_user_goals"></a>
 
 - As a Returning User, I want to log in and see how my assessment is progressing. Have I been successful with my application. 
 - As a Frequent User, I want to view information on how the mission preparation is progressing. 
 - As a Frequent User, I want to call or email the company directly. 
 
-**References and Credits Section** 
+## References and Credits Section <a name="references_and_credits"></a>
 
-**Code:** 
+**Code:**
 
 The code for the countdown timer on the main page was found in the following location[:https://www.w3schools.com/howto/howto_js_countdown.asp ](https://www.w3schools.com/howto/howto_js_countdown.asp)
 
@@ -239,7 +252,7 @@ For additional info regarding the different sectors that the RSEC Company wish t
 
 [https://www.esa.int/About_Us/EAC/Space_Medicine ](https://www.esa.int/About_Us/EAC/Space_Medicine)
 
-**Testing** 
+## Testing
 
 Testing Code Validators for all sections of the website were carried out at: 
 
