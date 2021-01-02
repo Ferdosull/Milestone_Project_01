@@ -1,8 +1,22 @@
-Milestone Project 01 
+# Milestone Project 01 
 
-Red Zone | Mission to Mars 
+## Red Zone | Mission to Mars
+
+## Table of contents
+1. [Responsive Design](#responsive_design)
+2. [My Project Description and Design](#project_description)
+    1. [Main Page](#main_page)
+    2. [We Need You](#we_need_you)
+    3. [About Us](#about_us)
+    4. [Gallery](#gallery)
+    5. [Nav-Bar](#nav-bar)
+    6. [Join Our Team](#join_our_team)
+    7. [Footer](#footer)
+3. [Utilising the 5 Planes of UX Design](#ux_design)
 
 ![](assets/readme_images/README.001.png)
+
+**Responsive Design** <a name="responsive_design"></a>
 
 As seen in the picture above, you can view the projects main page responsiveness at “ami.responsivedesigns.is” by clicking here:[ RED ZONE M2M RESPONSIVENESS ](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
 
@@ -10,11 +24,11 @@ View the live project here:[ RED ZONE M2M ](https://ferdosull.github.io/Mileston
 
 My Milestone Project was envisioned and created based on the knowledge gained from the course leading up to this point. As well as the course materials, there have been some additions which I have found online and utilised. These additions have been highlighted and referenced later on in this document (references and credits section). 
 
-**My Project Description and Design** 
+## My Project Description and Design <a name="project_description"></a>
 
 For my first Milestone Project I have developed a futuristic recruitment type website for a fictional Space Exploration Company called RSEC (Red Zone Space Exploration Company). The goal of the website is to inform potential candidates of the launch date for the first colony on Mars, provide an about page detailing previous accolades, detail what the pre-requisites are if candidates or students wish to apply to be part of the team (contained in the “Join Our Team modal”), the type of sectors requiring candidates (the “We Need You” page) and in the gallery section, display some photos of the RSEC catalogue. In the footer there is the possibility to download a scholarship application form for students who may not currently meet the pre-requisite requirements accompanied by social media links and contact details. The website is made up of 4 pages:[ index.html,](https://ferdosull.github.io/Milestone_Project_01/index.html)[ about.html,](https://ferdosull.github.io/Milestone_Project_01/about.html) [gallery.html ](https://ferdosull.github.io/Milestone_Project_01/gallery.html)&[ weneedyou.html.](https://ferdosull.github.io/Milestone_Project_01/weneedyou.html) Please see wireframe screenshots below: 
 
-**Main Page** 
+**Main Page** <a name="main_page"></a>
 
 ![](assets/readme_images/README.002.png)
 
@@ -22,7 +36,7 @@ For my first Milestone Project I have developed a futuristic recruitment type we
 
 The main page is very minimalistic. Atop the page is a full width Nav-Bar which is shared on all pages. The Nav-Bar will be detailed at the end of this section. There is a large full screen high resolution image of Mars with the title “RED ZONE | MISSION TO MARS”. Immediately underneath the heading is a sub heading with the text “Countdown to Take Off” and immediately underneath this is a countdown timer with the end date of 05/01/2029 and beginning with the text “T-minus”. This I feel keeps the main page really in line with the Aerospace theme I am going for. Both the main heading and the sub-heading have a 2 second fade-in which I feel displays well as the countdown timer takes a second or so to display while doing its calculation. At the bottom of the page is a three-division footer which details some about text, a Download application or scholarship form and links to social media related websites. The Footer will also be detailed at the end of this section. 
 
-**We Need You (Careers)** 
+**We Need You (Careers)** <a name="we_need_you"></a>
 
 ![](assets/readme_images/README.004.png)
 
@@ -36,7 +50,7 @@ To the right of each case study is a “Join Our Team” button if the user feel
 
 The Nav-Bar and Footer here are identical to the main page also. 
 
-**About us** 
+**About us** <a name="about_us"></a>
 
 ![](assets/readme_images/README.006.png)
 
@@ -52,7 +66,7 @@ The middle column of the page contains a writeup on the company spanning how the
 
 The Nav-Bar and Footer here are identical to the main page also. 
 
-**Gallery Page** 
+**Gallery** <a name="gallery"></a>
 
 ![](assets/readme_images/README.008.png)
 
@@ -62,19 +76,19 @@ The Gallery page contains photos of the RSEC catalogue which documents RSEC spac
 
 The Nav-Bar and Footer here are identical to the main page also. 
 
-**Nav-Bar**
+**Nav-Bar** <a name="nav-bar"></a>
 
 ![](assets/readme_images/README.010.png)
 
-**Join Our Team Modal** 
+**Join Our Team Modal** <a name="join_our_team"></a>
 
 ![](assets/readme_images/README.011.png)
 
-**Footer** 
+**Footer** <a name="footer"></a>
 
 ![](assets/readme_images/README.012.png)
 
-**Utilising the 5 Planes of UX Design** 
+## Utilising the 5 Planes of UX Design <a name="ux_design"></a>
 
 **The Strategy Plane** 
 
