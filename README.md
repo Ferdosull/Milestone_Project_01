@@ -26,7 +26,20 @@
     4. [Returning User Goals](#returning_user_goals)
     5. [Frequent User Goals](#frequent_user_goals)
 6. [References and Credits Section](#references_and_credits)
-
+    1. [Code](#code)
+    2. [Media](#media)
+    3. [Fictional Application Form](#fictional_application_form)
+    4. [Contact](#contact)
+7. [Testing](#testing)
+    1. [Website Functionality Testing Procedure Tables](#testing_procedure)
+    2. [HTML and CSS Validation](#validation)
+8. [Creation of Template and Deployment of Project](#project_deployment)
+    1. [Creating a New Project](#new_project)
+    2. [Commands Utilised Throughout The Project After Changes](#commands)
+    3. [How to Deploy My Milestone\_Project\_01 on GitHub Pages](#how_to_deploy)
+    4. [How to Download, View and Edit This Project Locally using Notepad++](#how_to_download)
+9. [Acknowledgements](#acknowledgements)
+  
 
 ![](assets/readme_images/README.001.png)
 
@@ -190,7 +203,7 @@ The Red Zone Space Exploration Company are interested in finding the right indiv
 
 ## References and Credits Section <a name="references_and_credits"></a>
 
-**Code:**
+**Code:** <a name="code"></a>
 
 The code for the countdown timer on the main page was found in the following location[:https://www.w3schools.com/howto/howto_js_countdown.asp ](https://www.w3schools.com/howto/howto_js_countdown.asp)
 
@@ -204,7 +217,7 @@ The telephone link in the footer where it automatically calls on a mobile device
 
 The email link in footer where it automatically opens an email from your default email client and populates the “To” text box with the[ info@rseclayer1.com,](mailto:info@rseclayer1.com) was taken and utilised from the following website:[ https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-create-a- link-that-if-clicked-on-it-opens-the-clients-email-application/ ](https://kb.benchmarkemail.com/how-do-i-add-an-email-link-i-want-to-create-a-link-that-if-clicked-on-it-opens-the-clients-email-application/)
 
-**Media** 
+**Media** <a name="media"></a>
 
 The photos used to create the gallery were taken from the following location: [https://unsplash.com/ ](https://unsplash.com/)
 
@@ -244,11 +257,11 @@ I’d like to say thank you to the photographers who provided the content above 
 
 The Logo for the “About Section” was created using the free online logo creator located at: [https://looka.com/explore ](https://looka.com/explore)
 
-**Fictional Application Form-PDF:** 
+**Fictional Application Form-PDF:** <a name="fictional_application_form"></a>
 
 The fictional application form was found at the following location: [https://www.sampleforms.com/scholarship-application-form.html ](https://www.sampleforms.com/scholarship-application-form.html)
 
-**Content:** 
+**Content:** <a name="contact"></a>
 
 The content for this site is completely fictional but created by me based on my understandings of engineering and the space industry. 
 
@@ -262,7 +275,13 @@ For additional info regarding the different sectors that the RSEC Company wish t
 
 [https://www.esa.int/About_Us/EAC/Space_Medicine ](https://www.esa.int/About_Us/EAC/Space_Medicine)
 
-## Testing
+## Testing <a name="testing"></a>
+
+**Website Functionality Testing Procedure Tables** <a name="testing_procedure"></a>
+
+To Be Completed.
+
+**HTML and CSS Validation** <a name="validation"></a>
 
 Testing Code Validators for all sections of the website were carried out at: 
 
@@ -280,13 +299,11 @@ Gallery.html = [https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.
 
 Weneedyou.html = [https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2 Fweneedyou.html ](https://validator.w3.org/nu/?doc=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fweneedyou.html)
 
-Style.css =[ https://jigsaw.w3.org/css- validator/validator?uri=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fassets%2F css%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en ](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+Style.css =[ https://jigsaw.w3.org/css- validator/validator?uri=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fassets%2F css%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en ](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-Further testing to be completed with a test strategy for each page. 
+## Creation of Template and Deployment of this Project (GitHub &GitPod) <a name="project_deployment"></a>
 
-**Creation of Template and Deployment of this Project (GitHub &GitPod)**
-
-**Creating a new project** 
+**Creating a new project** <a name="new_project"></a>
 
 Once logged in to GitHub I created my project by clicking on the “New” repository button in the top left of the screen. 
 
@@ -300,7 +317,7 @@ After the repository was created I navigated to it [repository][https://github.c
 
 ![](assets/readme_images/README.018.png)
 
-**I utilised the following commands throughout the project after changes:** 
+**Commands Utilised Throughout The Project After Changes:** <a name="commands"></a>
 
 “git add .“: This command is used to add all edited files to the staging area before carrying out a commit. 
 
@@ -308,23 +325,23 @@ After the repository was created I navigated to it [repository][https://github.c
 
 “git push”: This command is used to push git commit changes to the GitHub hosting pages so that they can be viewed on a browser.  
 
-**How to deploy my Milestone\_Project\_01 on GitHub Pages** 
+**How to Deploy My Milestone\_Project\_01 on GitHub Pages** <a name="how_to_deploy"></a>
 
-1. Navigate to the GitHub [Repository:[\]https://github.com/Ferdosull/Milestone_Project_01 ](https://github.com/Ferdosull/Milestone_Project_01)
+1. Navigate to the GitHub [Repository:[\]https://github.com/Ferdosull/Milestone_Project_01 ](https://github.com/Ferdosull/Milestone_Project_01)**
 
-2. Click on the 'Settings' Tab highlighted in the following screenshot. 
+2. Click on the 'Settings' Tab highlighted in the following screenshot.** 
 
 ![](assets/readme_images/README.019.png)
 
-3. Scroll Down to the GitHub Pages section and select “Master” from the first drop down menu and click the “Save” button. Please see below: 
+3. Scroll Down to the GitHub Pages section and select “Master” from the first drop down menu and click the “Save” button. Please see below:** 
 
 ![](assets/readme_images/README.020.png)
 
-4. Once the project has been published, navigate back down to the GitHub Pages section and click on the link provided to navigate to live deployed site. Please see below: 
+4. Once the project has been published, navigate back down to the GitHub Pages section and click on the link provided to navigate to live deployed site. Please see below:** 
 
 ![](assets/readme_images/README.021.png)
 
-**How toDownload, Viewand Edit this project Locally using Notepad++** 
+**How to Download, View and Edit This Project Locally using Notepad++** <a name="how_to_download"></a>
 
 1. Navigate to the GitHub [Repository:][ https://github.com/Ferdosull/Milestone_Project_01 ](https://github.com/Ferdosull/Milestone_Project_01)
 
@@ -348,6 +365,6 @@ After the repository was created I navigated to it [repository][https://github.c
 
 6. Once opened in the Notepad++ editor you can make changes to html and css files, save the changes and re-open or refresh your browser to see the impact. 
 
-**Acknowledgements**
+## Acknowledgements <a name="acknowledgements"></a>
 
 I'd like to say a special thank you to my mentor Allen Thomas Varghese for his excellent advice and recommendations throughout the project. 
