@@ -27,11 +27,18 @@
     5. [Frequent User Goals](#frequent_user_goals)
 6. [References and Credits Section](#references_and_credits)
 
+
 ![](assets/readme_images/README.001.png)
 
 ## Responsive Design <a name="responsive_design"></a>
 
-As seen in the picture above, you can view the projects main page responsiveness at “ami.responsivedesigns.is” by clicking here:[ RED ZONE M2M RESPONSIVENESS ](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
+As seen in the picture above, you can view the projects 4 pages responsiveness to different device sizes at “ami.responsivedesigns.is” 
+by clicking:
+
+[index.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Findex.html)
+[about.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fabout.html)
+[gallery.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fgallery.html)
+[weneedyou.html Responsiveness](http://ami.responsivedesign.is/?url=https%3A%2F%2Fferdosull.github.io%2FMilestone_Project_01%2Fweneedyou.html)
 
 View the live project here:[ RED ZONE M2M ](https://ferdosull.github.io/Milestone_Project_01/index.html)
 
