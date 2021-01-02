@@ -1,4 +1,4 @@
-﻿# Milestone Project 01 
+# Milestone Project 01 
 
 ### Red Zone | Mission to Mars
 
@@ -209,7 +209,7 @@ The Red Zone Space Exploration Company are interested in finding the right indiv
 
 The code for the countdown timer on the main page was found in the following location[:https://www.w3schools.com/howto/howto_js_countdown.asp ](https://www.w3schools.com/howto/howto_js_countdown.asp)
 
-The countdown timer was further styled to include a custom font and font size plus an opaque background. 
+The telephone link in the footer where it automatically calls on a mobile device when clicked were found at:[ https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number ](https://www.elegantthemes.com/blog/wordpress/call-link-html-phone-number)
 
 ![](assets/readme_images/README.015.png)
 
