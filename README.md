@@ -124,6 +124,8 @@ The Nav-Bar and Footer here are identical to the main page also.
 
 ![](assets/readme_images/README.012.png)
 
+![](assets/readme_images/README.027.png)
+
 https://imagecolorpicker.com/en/
 
 ## Utilising the 5 Planes of UX Design <a name="ux_design"></a>
