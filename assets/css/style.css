@@ -476,6 +476,19 @@ body {
     text-align: center;
 }
 
+.gallery-icon-overlay {
+    position: absolute; 
+    top: 0.6rem;
+    right: 0.6rem;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fafafa; 
+    width: auto;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 25px;
+    padding: 4px 4px 7px 9px;
+    border-radius: 0.6rem;
+}
 
 
 /* ---------------------------------------------------------------------Modal.css */
@@ -677,6 +690,18 @@ footer {
         opacity: 1;
     }
 
+    .gallery-pic-container:hover .gallery-icon-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container:active .gallery-icon-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container:focus .gallery-icon-overlay {
+        opacity: 1;
+    }
+
     .social-links li a i:hover {
         background: lightgrey;
         color: #01161E;
@@ -696,6 +721,10 @@ footer {
     }
 
     .gallery-pic-container .gallery-pic-overlay {
+        opacity: 1;
+    }
+
+    .gallery-pic-container .gallery-icon-overlay {
         opacity: 1;
     }
 }
