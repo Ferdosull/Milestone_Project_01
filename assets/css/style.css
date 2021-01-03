@@ -1,4 +1,4 @@
-/* -------------------------------------------------------------------------Fonts */
+/* --------------------------------------------------Fonts and associated styling */
 .text-uppercase {
     text-align: center;
 	font-family: 'Big Shoulders Stencil Text', cursive;
@@ -333,7 +333,7 @@ body {
     box-shadow: 6px 6px rgba(0, 0, 0, 0.2); 
 }
 
-/* -----------------------------------------------------------------------Heading */
+/* ----------------------------------------------------------------------Headings */
 
 .jumbotron {
     background-color: transparent;
@@ -390,7 +390,7 @@ body {
 }
 
 
-/* -----------------------------------------------------------------------Fade-In */
+/* ------------------------------------------------Header Text Transition Fade-In */
 
 .fade-in-2sec {
     animation: fadeIn ease 2s;
@@ -491,7 +491,7 @@ body {
 }
 
 
-/* ---------------------------------------------------------------------Modal.css */
+/* --------------------------------------------------------------------Modals.css */
 
 .input-group-text {
     display: none;
@@ -619,7 +619,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-/* ------------------------------------------------------------Media Query 1400px */
+/* ---------------------------------------------- -Media Query (Max-Width) 1400px */
 
 @media(max-width: 1400px) {
     .weneedyou-body {
@@ -729,7 +729,7 @@ footer {
     }
 }
 
-/* ------------------------------------------------------------Media Query 1280px */
+/* ------------------------------------------------Media Query (Max-Width) 1280px */
 
 @media(max-width: 1280px) {
     .list-inline-item:not(:last-child) {
@@ -862,7 +862,7 @@ footer {
 	}   
 }
 
-/* -------------------------------------------------------------Media Query 992px */
+/* -------------------------------------------------Media Query (Max-Width) 992px */
 
 @media(max-width: 992px) {
     .line-divider {
@@ -915,7 +915,7 @@ footer {
     }
 }
 
-/* -------------------------------------------------------------Media Query 670px */
+/* -------------------------------------------------Media Query (Max-Width) 670px */
 
 @media(max-width: 670px) {
 
@@ -942,7 +942,7 @@ footer {
     }
 }
 
-/* -------------------------------------------------------------Media Query 500px */
+/* ----------------------------------------------- -Media Query (Max-Width) 500px */
 
 @media(max-width: 500px) {
     .jumbotron {
@@ -981,7 +981,7 @@ footer {
         margin-top: 50px;
     }	
 }
-/* ---------------------------------------------------------Media Query 365px */
+/* -------------------------------------------------Media Query (Max-Width) 365px */
 
 @media(max-width: 365px) {
     .modal-title {
@@ -995,7 +995,7 @@ footer {
     }	
 }
 
-/* ------------------------------------------------Media Query 420px (height) */
+/* -------------------------------------------------Media Query (Max-Height) 420px */
 
 @media(max-height: 420px) {
     .jumbotron {
