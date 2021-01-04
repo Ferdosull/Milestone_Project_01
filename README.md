@@ -26,28 +26,31 @@
     3. [First Time User Goals](#first_time_user_goals)
     4. [Returning User Goals](#returning_user_goals)
     5. [Frequent User Goals](#frequent_user_goals)
-7. [References and Credits Section](#references_and_credits)
+7. [Bugs and Fixes](#bug_fixes)
+8. [References and Credits Section](#references_and_credits)
     1. [Code](#code)
     2. [Media](#media)
     3. [Fictional Application Form](#fictional_application_form)
     4. [Contact](#contact)
-8. [Testing](#testing)
+9. [Testing](#testing)
     1. [Website Responsiveness and Call to Action Functionality Testing Procedure](#testing_procedure)
     2. [HTML and CSS Validation](#validation)
-9. [Future "Nice to Have" Additions to The Website](#additions)
-10. [Creation of Template and Deployment of Project](#project_deployment)
+10. [Future "Nice to Have" Additions to The Website](#additions)
+11. [Creation of Template and Deployment of Project](#project_deployment)
     1. [Creating a New Project](#new_project)
     2. [Commands Utilised Throughout The Project After Changes](#commands)
     3. [How to Deploy My Milestone\_Project\_01 on GitHub Pages](#how_to_deploy)
     4. [How to Download, View and Edit This Project Locally using Notepad++](#how_to_download)
-11. [Acknowledgements](#acknowledgements)<br/><br/>
+12. [Acknowledgements](#acknowledgements)<br/><br/>
 
 ## Introduction <a name="intro"></a>
 
 My Milestone Project was envisioned by me and created based on the knowledge gained so far from this course. 
-I have taken the fundamentals that I have learned from the course and applied them to this website with style changes to suit my application. 
+I have taken the fundamentals that I have learned from the course and applied them to this website with style changes to suit my application.
+I hope that the outcome of my works has translated into a front-end web application that is accessible, responsive and promotes good user experience.
 As well as the course materials, there have been some additions which I have found online and utilised. 
 These additions have been highlighted and referenced later on in this document (references and credits section).
+
  
 ## Responsive Design <a name="responsive_design"></a>
 
@@ -69,9 +72,10 @@ Please see initial envisioned wireframes (before project start) and actual scree
 
 ### Main Page <a name="main_page"></a>
 **Click Here!**[ index.html](https://ferdosull.github.io/Milestone_Project_01/index.html) To Visit The Main Page
-![](assets/readme_images/README.002.png)<a name="index-ux"></a>
 
-![](assets/readme_images/README.003.png)
+![](assets/readme_images/README.002.png)
+
+![](assets/readme_images/README.003.png)<a name="index-ux"></a>
 
 The main page is very minimalistic. At the top of the page is a full width Nav-Bar which is shared on all pages. The Nav-Bar will be detailed at the end of this section. 
 There is a large full screen high resolution image of Mars with the title “RED ZONE | MISSION TO MARS”. 
@@ -85,9 +89,9 @@ The Footer will also be detailed at the end of this section.
 ### We Need You (Careers) <a name="we_need_you"></a>
 **Click Here!**[ weneedyou.html](https://ferdosull.github.io/Milestone_Project_01/weneedyou.html) To Visit The We Need You Page
 
-![](assets/readme_images/README.004.png)<a name="we-need-you-ux"></a>
+![](assets/readme_images/README.004.png)
 
-![](assets/readme_images/README.005.png)
+![](assets/readme_images/README.005.png)<a name="we-need-you-ux"></a>
 
 The “We Need You” page provides insights into the four sectors that require additional engineering staff in preparation for the mission launch in 2029. 
 The sectors are divided into the following groupings of skillets: Advanced Medical, Information Technology, Agricultural Science and Engineering Science. 
@@ -105,9 +109,9 @@ The Nav-Bar and Footer here are identical to the main page also.
 ### About us <a name="about_us"></a>
 **Click Here!**[ about.html](https://ferdosull.github.io/Milestone_Project_01/about.html) To Visit The About Page
 
-![](assets/readme_images/README.006.png)<a name="about-ux"></a>
+![](assets/readme_images/README.006.png)
 
-![](assets/readme_images/README.007.png)
+![](assets/readme_images/README.007.png)<a name="about-ux"></a>
 <br/><br/>
 
 The “About Us” page displays the company logo in the top left column. The company logo was created using a free logo creator on the following website
@@ -131,9 +135,9 @@ The Nav-Bar and Footer here are identical to the main page also.
 ### Gallery <a name="gallery"></a>
 **Click Here!**[ gallery.html](https://ferdosull.github.io/Milestone_Project_01/gallery.html) To Visit The Gallery Page
 
-![](assets/readme_images/README.008.png)<a name="gallery-ux"></a>
+![](assets/readme_images/README.008.png)
 
-![](assets/readme_images/README.009.png)
+![](assets/readme_images/README.009.png)<a name="gallery-ux"></a>
 <br/><br/>
 The Gallery page contains photos of the RSEC catalogue which documents RSEC space machinery, testing phases, prototypes, experiments and shuttle launches. 
 By clicking on each picture it will load it in its own browser tab. Again, keeping in line with the same style as the “We Need You Page”, in desktop format, 
@@ -301,7 +305,16 @@ on Mars to ensure survival of the human race. Not an easy task.
 - As a Frequent User, I want to call or email the company directly. 
 <br/><br/>
 
-## References and Credits Section <a name="references_and_credits"></a><br/><br/>
+## Bugs and Bug Fixes <a name="bug_fixes"></a>
+
+During the creation of the modal for the "Join Our Team" buttons, I was trying to utilise the "required" function which I managed to implement fine.
+For the "Enter Full Name" and "Enter Email Address" sections everything worked well. For the "Enter Contact Number" I ran into some issues.
+Firstly, I changed the type="text" to type="number" which I though would only allow numbers. This only allowed for 1 digit which had to be scrolled up or down to be incremented.
+Secondly, after consulting Bootstrap documentation, I found out that the type="number" had to be type="tel" for telephone. After making this change I still found that it would allow 
+letters to be entered into the input box. After further searches of the documentation I found that as well as type="tel", pattern="\d*" was also required. This solved the bug for me.
+<br/><br/>
+
+## References and Credits Section <a name="references_and_credits"></a>
 
 **Code:** <a name="code"></a>
 
@@ -505,6 +518,10 @@ If I could make further additions to the website down the line they would be to 
 
  * A "Log In" section for returning users. This way the candidates could access information in relation to the processing of their application, 
  or make further submissions and add certificates and academic awards to build there overall application profile.
+
+ * After the modal is populated correctly and "Submit" is pressed I would like to add a confirmation message to let the user know that their task
+ of supplying the right information and pressing "Submit" was successful. It is my understanding that JavaScript is required for this and I 
+ hope to include it in some of my next projects.
 
  * A "Live RSEC Progress Report". This would include milestones selected and hit and by the company enroute to the mission launch date. 
  The skills percentage completed section in the Code Institute "My-CV" website would be an ideal place to start and build on.

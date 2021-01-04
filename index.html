@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- HTML Language attribute set to English -->
 
 <head>
 
@@ -37,10 +38,11 @@
 
         <div class="container-fluid navalert-container">
             <nav class="navbar navbar-dark navbar-expand-md">
-                <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a>
+                <a href="index.html" class="navbar-brand">RED ZONE Layer 1</a><!-- Mission Title -->
                 <a><i class="fas fa-space-shuttle fa-rotate-270" aria-hidden="true"></i>
                     <span class="sr-only">Space-Shuttle</span>
                 </a>
+                <!-- Hamburger Style Collapsible Menu for Mobile -->
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                     data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -68,7 +70,7 @@
 
     </header>
 
-    <!-- Start Mid-Section-->
+    <!-- Start Countdown Section-->
 
     <div class="container-fluid callout-container">
         <div class="row">
@@ -119,24 +121,27 @@
         </div>
     </div>
 
-    <!-- End Mid-Section-->
+    <!-- End Countdown Section-->
 
     <!--Start Footer-->
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
+                <!-- Basic Mission Objectives -->
                 <h5 class="uppercase general-sub">RSEC Layer 1 Basic Mission Objectives</h5>
                 <p class="inline-block">in 2029, 20 individuals will touch down on the surface of Mars with a view to
-                    establishing living quaters, growing crops, processing & sustaining Oxygen, regulating heat, and
+                    establishing living quarters, growing crops, processing & sustaining oxygen, regulating heat, and
                     harvesting water.
                 </p>
             </div>
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Meeting Our Employment Pre-requisutes</h5>
+                <!-- Prerequisites Scholarship Program -->
+                <h5 class="uppercase general-sub">Meeting Our Employment Pre-requisites</h5>
                 <p class="inline-block">If you do not meet our employment pre-requisites dont worry.
                     There is still time to upskill and be part of our team. Download a Scholarship application
                     form here.
+                    <!-- Download Application Form -->
                     <a href="assets/application/application-form.pdf" target="_blank" class="application-pdf">
                         <i class="fas fa-file-download" aria-hidden="true"></i>
                         <span class="sr-only">Download Link.</span>
@@ -146,6 +151,7 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Follow Us On Social Media</h5>
                 <ul class="list-inline social-links">
+                    <!-- Social Media Icons -->
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -183,12 +189,15 @@
                         </a>
                     </li>
                 </ul>
+                <!-- Contact Details -->
                 <p>
                     <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                    <span class="sr-only">Mobile-Contact-Number</span>
                     <a class="link-font" href="tel:+555(0)55554433221">+555(0)55-554433221</a>
                 </p>
                 <p>
                     <i class="far fa-envelope" aria-hidden="true"></i>
+                    <span class="sr-only">Email-Address</span>
                     <a class="link-font"
                         href="mailto:info@rseclayer1.com?subject:General%20Question">Email:info@rseclayer1.com</a>
                 </p>
@@ -205,8 +214,10 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Join Our Team!</h5>
+                    <!--Modal Heading-->
                     <a><i class="fas fa-space-shuttle fa-rotate-270 modal-shuttle" aria-hidden="true"></i>
                         <span class="sr-only">Space-Shuttle</span>
+                        <!--Modal Icon-->
                     </a>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -221,9 +232,11 @@
                         </div>
                         <div class="form-group">
                             <label for="contact-number"></label>
-                            <input type="tel" class="form-control" id="contact-number" placeholder="Enter Contact No.">
+                            <input type="tel" class="form-control" id="contact-number" placeholder="Enter Contact No."
+                                pattern="\d*" required>
                         </div>
                         <div class="input-group mb-3">
+                            <!--Dropdown Menu-->
                             <label for="inputGroupSelect01" class="form-control careers">Careers</label>
                             <select class="form-select" id="inputGroupSelect01">
                                 <option selected>Choose an Option...</option>
@@ -241,11 +254,13 @@
                                 with any other party</small>
                         </div>
                         <div class="form-group choose-file">
+                            <!--Upload File-->
                             <input type="file" class="form-control" id="inputGroupFile02" required>
                             <label class="input-group-text" for="inputGroupFile02">Choose File</label>
                             <small id="uploadHelp" class="form-text text-muted">Please choose a .PDF version of your
                                 most recent CV.</small>
                         </div>
+                        <!--Submit Button-->
                         <button type="submit" class="btn btn-modal btn--red2">Submit</button>
                     </form>
                 </div>
