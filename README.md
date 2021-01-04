@@ -178,7 +178,7 @@ There is a responsive download icon which opens a sample application form pdf in
 and eight responsive items. six of the responsive items are social media links which navigate the user to a new tab for the media outlet selected when clicked 
 or pressed. Underneath the social media icons are a phone contact number and an email address link which are also  clickable/pressable. 
 Clicking/pressing the phone number link auto populates the same number to call on a mobile phone device. Additional options are given on a desktop device. 
-Clicking/pressing the email link auto populates the users default email client with "info@rseclayer1.com" in the "To" section and "General Question" in the "Subject" section of the email form. 
+Clicking/pressing the email link auto populates the users default email client with "info@rseclayer1.com" in the "To" section of the email form. 
 Please see the image below depicting the responsive footer before and after hovering on all icons and links.
 
 ![](assets/readme_images/README.012.png)
@@ -425,7 +425,7 @@ Please see the testing procedure I have created for the "Red Zone | Mission To M
 * Check that clicking/pressing the download scholarship icon opens a sample pdf application form in its own tab, which is downloadable.
 * Check that clicking/pressing the social media icons navigates you to the social media outlets main page in its own tab.
 * Check that clicking/pressing the contact number auto populates mobile devices with the number onscreen for making a call. If clicked/pressed on a desktop device it asks the user if they wish to send the number from the browser to a mobile phone.
-* Check that clicking/pressing the email link causes the users default email client to open up and auto populate the "To" section with the email address: info@rseclayer1.com and the subject section with "General Question".
+* Check that clicking/pressing the email link causes the users default email client to open up and auto populate the "To" section with the email address: info@rseclayer1.com.
 <br/><br/>
 
 ### Modal (all pages)
